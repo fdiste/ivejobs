@@ -1,0 +1,126 @@
+{
+  "source": "https://michildwelfare.org/employment/",
+  "fetched_at": "2026-11-05T15:46:15+00:00",
+  "groups": {
+    "mdhhs": [
+      {
+        "title": "Services Specialist 9-11",
+        "detail": "CPS Investigator/On Going"
+      },
+      {
+        "title": "Services Specialist 9-11",
+        "detail": "Foster Care Case Manager"
+      },
+      {
+        "title": "Services Specialist 9-11",
+        "detail": "Centralized Intake Unit"
+      },
+      {
+        "title": "Juvenile Justice Specialist",
+        "detail": ""
+      },
+      {
+        "title": "Services Specialist Assistant 8-10",
+        "detail": "Family Teams Support"
+      },
+      {
+        "title": "PAFC Monitor",
+        "detail": ""
+      },
+      {
+        "title": "Adoption Monitor",
+        "detail": ""
+      },
+      {
+        "title": "Michigan Youth Opportunities Initiative Coordinator",
+        "detail": ""
+      },
+      {
+        "title": "Guardianship Specialist",
+        "detail": ""
+      },
+      {
+        "title": "Foster Home Licensing",
+        "detail": ""
+      }
+    ],
+    "mdhhs_advanced": [
+      {
+        "title": "Services Specialist 12- Senior Services Worker",
+        "detail": ""
+      },
+      {
+        "title": "Departmental Specialist 14- Permanency Resource Monitor",
+        "detail": ""
+      },
+      {
+        "title": "Departmental Analyst 9-11 Court Liason",
+        "detail": ""
+      },
+      {
+        "title": "Services Specialist 12- Maltreatment in Care Unit",
+        "detail": ""
+      },
+      {
+        "title": "Departmental Analyst 9-11 Health Liaison Officer",
+        "detail": ""
+      },
+      {
+        "title": "Services Program Manager 14- Children's Services Supervisor",
+        "detail": ""
+      }
+    ],
+    "private": [
+      {
+        "title": "Foster Care Worker",
+        "detail": ""
+      },
+      {
+        "title": "Adoption Worker",
+        "detail": ""
+      },
+      {
+        "title": "Unaccompanied Refugee Minor Caseworker",
+        "detail": ""
+      },
+      {
+        "title": "Foster Home Licensing/GROW Trainer",
+        "detail": ""
+      },
+      {
+        "title": "Supervised Independent Living Caseworker",
+        "detail": ""
+      },
+      {
+        "title": "Program Supervisor",
+        "detail": "Adoption, Foster Care, Licensing"
+      }
+    ],
+    "tribal": [
+      {
+        "title": "Foster Care Worker",
+        "detail": ""
+      },
+      {
+        "title": "Adoption Worker",
+        "detail": ""
+      },
+      {
+        "title": "Supervised Independent Living Caseworker",
+        "detail": ""
+      },
+      {
+        "title": "Child Protective Services Worker",
+        "detail": ""
+      },
+      {
+        "title": "Foster Home Licensing",
+        "detail": ""
+      },
+      {
+        "title": "Program Supervisor",
+        "detail": "Adoption, Foster Care, Licensing, CPS"
+      }
+    ]
+  }
+}

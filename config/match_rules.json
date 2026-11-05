@@ -1,0 +1,315 @@
+{
+  "_help": [
+    "How job postings are matched to each eligible position listed on michildwelfare.org/employment.",
+    "Keys are the eligible position title (plus its detail line, if any) in lowercase, as parsed from the site.",
+    "All patterns are case-insensitive regular expressions.",
+    "  classspec: (MDHHS only) the State civil-service classification must match this.",
+    "  title_any: at least one must match the posting title.",
+    "  text_any:  at least one must match the title + description (used when the title alone is vague).",
+    "  exclude:   if any matches the posting title, the posting is skipped for this position.",
+    "global_exclude patterns are checked against the posting title for every position.",
+    "If the site adds a position that has no rule here, a rule is generated from the title words and a warning is logged.",
+    "  or:        optional list of alternative {title_any/text_any/classspec} combinations; any one matching is enough."
+  ],
+  "global_exclude": [
+    "\\bintern(ship)?\\b",
+    "\\btherapist\\b",
+    "\\bclinician\\b",
+    "\\bpsychiatr",
+    "\\bnurse\\b",
+    "\\bschool\\b",
+    "\\bhospital\\b",
+    "\\bresidential\\b",
+    "\\bdirect care\\b",
+    "\\byouth (care|specialist|worker)\\b",
+    "\\bresident(ial)? (care|aide|advocate)\\b",
+    "\\bmifamily\\b",
+    "family preservation",
+    "\\bprevention\\b",
+    "\\bfamilies first\\b",
+    "\\bbehavioral health\\b",
+    "\\bmental health\\b",
+    "\\bclinical\\b",
+    "\\bvolunteer\\b",
+    "\\bcase aid(e)?s?\\b",
+    "\\baide\\b",
+    "\\bparent (coach|partner|aide)\\b",
+    "\\bmft\\b",
+    "\\bin-home\\b",
+    "\\bresidences?\\b",
+    "example job",
+    "general application",
+    "\\bsupports coordinator\\b",
+    "\\bsubstance\\b",
+    "\\bparenting coach\\b",
+    "\\bvisitation\\b"
+  ],
+  "mdhhs_departments": "Health and Human Services - (Counties|Central Office)",
+  "rules": {
+    "services specialist 9-11 cps investigator/on going": {
+      "classspec": "^Services Specialist 9",
+      "text_any": [
+        "\\bCPS\\b",
+        "protective services",
+        "abuse (and|or) neglect",
+        "child welfare",
+        "\\bSS\\b"
+      ],
+      "exclude": [
+        "adult services",
+        "\\bAPS\\b",
+        "home help",
+        "centralized intake"
+      ]
+    },
+    "services specialist 9-11 foster care case manager": {
+      "classspec": "^Services Specialist 9",
+      "text_any": [
+        "foster care"
+      ],
+      "exclude": [
+        "adult services",
+        "\\bAPS\\b",
+        "home help",
+        "centralized intake"
+      ]
+    },
+    "services specialist 9-11 centralized intake unit": {
+      "classspec": "^Services Specialist 9",
+      "title_any": [
+        "centralized intake",
+        "\\bCIU\\b"
+      ]
+    },
+    "juvenile justice specialist": {
+      "title_any": [
+        "juvenile justice specialist",
+        "juvenile justice (case|services) (worker|specialist|manager)"
+      ],
+      "exclude": [
+        "director",
+        "policy analyst"
+      ]
+    },
+    "services specialist assistant 8-10 family teams support": {
+      "classspec": "^Services Specialist Assistant",
+      "text_any": [
+        "family teams? support",
+        "\\bFTS\\b",
+        "\\bLTA\\b",
+        "child welfare",
+        "foster care",
+        "\\bCPS\\b"
+      ],
+      "exclude": [
+        "adult services",
+        "\\bAPS\\b",
+        "home help"
+      ]
+    },
+    "pafc monitor": {
+      "title_any": [
+        "\\bPAFC\\b",
+        "purchase of service",
+        "private agency foster care"
+      ]
+    },
+    "adoption monitor": {
+      "title_any": [
+        "adoption (contract )?monitor"
+      ]
+    },
+    "michigan youth opportunities initiative coordinator": {
+      "title_any": [
+        "\\bMYOI\\b",
+        "youth opportunities initiative"
+      ]
+    },
+    "guardianship specialist": {
+      "title_any": [
+        "guardianship"
+      ]
+    },
+    "foster home licensing": {
+      "title_any": [
+        "foster (home|care) licens",
+        "licensing (worker|specialist|consultant)",
+        "kinship (licens|care coordinator)"
+      ]
+    },
+    "services specialist 12- senior services worker": {
+      "classspec": "^Services Specialist 12",
+      "text_any": [
+        "\\bCPS\\b",
+        "foster care",
+        "child welfare",
+        "protective services",
+        "senior"
+      ],
+      "exclude": [
+        "adult services",
+        "\\bAPS\\b",
+        "maltreatment in care"
+      ]
+    },
+    "departmental specialist 14- permanency resource monitor": {
+      "title_any": [
+        "permanency resource monitor",
+        "\\bPRM\\b"
+      ]
+    },
+    "departmental analyst 9-11 court liason": {
+      "title_any": [
+        "court liai?son"
+      ]
+    },
+    "services specialist 12- maltreatment in care unit": {
+      "title_any": [
+        "maltreatment in care",
+        "\\bMIC\\b"
+      ]
+    },
+    "departmental analyst 9-11 health liaison officer": {
+      "title_any": [
+        "health liai?son",
+        "\\bHLO\\b"
+      ]
+    },
+    "services program manager 14- children's services supervisor": {
+      "classspec": "Services Program Manager 1[34]",
+      "text_any": [
+        "children'?s services",
+        "child welfare",
+        "\\bCPS\\b",
+        "foster care",
+        "protective services",
+        "\\bSPM\\b"
+      ],
+      "exclude": [
+        "adult services",
+        "\\bAPS\\b",
+        "assistance payments"
+      ]
+    },
+    "foster care worker": {
+      "title_any": [
+        "foster care",
+        "child welfare",
+        "permanency (case|worker|specialist|planner)",
+        "\\bfoster\\b.*\\b(case ?worker|case manager|specialist|worker)\\b",
+        "\\bkinship\\b.*\\b(case ?worker|case manager|specialist|worker)\\b",
+        "\\bcase ?(worker|manager)\\b.*\\b(foster|child welfare|permanency|kinship)\\b"
+      ],
+      "exclude": [
+        "supervisor",
+        "(?<!case )\\bmanager\\b",
+        "director",
+        "licens",
+        "recruit",
+        "\\blead\\b",
+        "therapeutic foster care therapist"
+      ],
+      "or": [
+        {
+          "title_any": [
+            "^\\s*case ?(manager|worker)\\b",
+            "\\bcaseworker\\b",
+            "\\bcase manager\\b"
+          ],
+          "text_any": [
+            "foster care",
+            "child welfare",
+            "permanency",
+            "\\bkinship\\b",
+            "out-of-home"
+          ]
+        }
+      ]
+    },
+    "adoption worker": {
+      "title_any": [
+        "adoption",
+        "post[- ]adoption",
+        "adoptive"
+      ],
+      "exclude": [
+        "supervisor",
+        "director",
+        "(?<!case )\\bmanager\\b",
+        "attorney",
+        "\\blead\\b"
+      ]
+    },
+    "unaccompanied refugee minor caseworker": {
+      "title_any": [
+        "\\bURM\\b",
+        "unaccompanied",
+        "refugee minor",
+        "refugee.*foster",
+        "foster.*refugee",
+        "transitional foster care",
+        "\\bTFC\\b"
+      ],
+      "exclude": [
+        "supervisor",
+        "director"
+      ]
+    },
+    "foster home licensing/grow trainer": {
+      "title_any": [
+        "licens(ing|e|ure) (worker|specialist|caseworker|case manager|coordinator)",
+        "foster (home|care|parent) licens",
+        "\\bGROW\\b",
+        "foster parent (trainer|recruit|support|development)",
+        "home stud(y|ies)",
+        "recruitment (and|&) retention",
+        "foster (home|family) (recruit|developer|specialist)",
+        "\\blicensing\\b.*\\b(worker|specialist|caseworker)\\b"
+      ],
+      "exclude": [
+        "supervisor",
+        "director",
+        "licensed (practical|professional|master|social)",
+        "\\bLMSW\\b"
+      ]
+    },
+    "supervised independent living caseworker": {
+      "title_any": [
+        "independent living",
+        "\\bSIL\\b",
+        "transition(al)? (age )?youth (case|worker|specialist)",
+        "youth independence"
+      ],
+      "exclude": [
+        "supervisor",
+        "director"
+      ]
+    },
+    "program supervisor adoption, foster care, licensing": {
+      "title_any": [
+        "(supervisor|program manager|program coordinator).*(foster|adoption|licens|child welfare|permanency|refugee|kinship|independent living)",
+        "(foster|adoption|licens|child welfare|permanency|refugee|kinship|independent living).*(supervisor|program manager)",
+        "(foster|adoption|licens|child welfare|permanency).*\\b(team )?lead\\b"
+      ],
+      "exclude": [
+        "director",
+        "residential"
+      ],
+      "or": [
+        {
+          "title_any": [
+            "\\b(case ?(manager|work(er)?)|program|team) (supervisor|lead)\\b",
+            "\\bsupervisor\\b.*\\bcase\\b"
+          ],
+          "text_any": [
+            "foster care",
+            "adoption",
+            "licensing",
+            "child welfare",
+            "permanency"
+          ]
+        }
+      ]
+    }
+  }
+}

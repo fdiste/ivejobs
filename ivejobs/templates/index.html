@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michigan Title IV-E Eligible Job Postings</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1d2430; --muted: #5b6575; --line: #dde1e7;
+    --accent: #0b5cad; --accent-soft: #e7f0fa; --mdhhs: #6b3fa0; --mdhhs-soft: #f0e9f8;
+    --private: #0f7b5f; --private-soft: #e3f4ee; --warn: #8a5a00; --warn-soft: #fff4dc;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+  header { background: #12324f; color: #fff; padding: 22px 24px 18px; }
+  header h1 { margin: 0 0 4px; font-size: 1.45rem; }
+  header p { margin: 0; color: #c9d6e3; font-size: .92rem; }
+  header a { color: #fff; }
+  main { max-width: 1400px; margin: 0 auto; padding: 18px 20px 40px; }
+  .notice { background: var(--warn-soft); border: 1px solid #f0d9a6; color: #4d3a10; padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; font-size: .92rem; }
+  .filters { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+  .filters label { display: flex; flex-direction: column; font-size: .78rem; font-weight: 600; color: var(--muted); gap: 4px; text-transform: uppercase; letter-spacing: .03em; }
+  .filters > * { min-width: 0; }
+  .filters input, .filters select { width: 100%; font: inherit; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--text); text-transform: none; letter-spacing: 0; font-weight: 400; }
+  .filters .row2 { grid-column: 1 / -1; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; font-size: .9rem; }
+  .filters .row2 input { width: auto; }
+  .filters .row2 label { flex-direction: row; align-items: center; text-transform: none; font-weight: 400; color: var(--text); font-size: .9rem; letter-spacing: 0; }
+  .filters button { font: inherit; padding: 6px 12px; border: 1px solid var(--line); background: #fff; border-radius: 6px; cursor: pointer; }
+  .summary { margin: 14px 2px 8px; color: var(--muted); font-size: .92rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .summary a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #eef1f5; font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); cursor: pointer; user-select: none; white-space: nowrap; position: sticky; top: 0; }
+  th[aria-sort="ascending"]::after { content: " ▲"; } th[aria-sort="descending"]::after { content: " ▼"; }
+  tbody tr:hover { background: #fafbfd; }
+  td.title a { color: var(--accent); font-weight: 600; text-decoration: none; } td.title a:hover { text-decoration: underline; }
+  .tag { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+  .tag.MDHHS { background: var(--mdhhs-soft); color: var(--mdhhs); } .tag.Private { background: var(--private-soft); color: var(--private); }
+  .tag.cont { background: var(--accent-soft); color: var(--accent); } .tag.no { background: #eef0f3; color: var(--muted); }
+  .roles { font-size: .82rem; color: var(--muted); }
+  .muted { color: var(--muted); } .nowrap { white-space: nowrap; }
+  .empty { padding: 30px; text-align: center; color: var(--muted); background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; margin-top: 18px; }
+  details summary { cursor: pointer; font-weight: 600; }
+  details h3 { font-size: .95rem; margin: 14px 0 6px; }
+  details ul { margin: 0; padding-left: 20px; columns: 2; } details li { break-inside: avoid; margin-bottom: 2px; }
+  .src-table { width: 100%; font-size: .88rem; margin-top: 10px; } .src-table td, .src-table th { padding: 5px 8px; position: static; }
+  .err { color: #a3261b; }
+  footer { color: var(--muted); font-size: .82rem; text-align: center; margin-top: 26px; }
+  @media (max-width: 900px) {
+    .filters { grid-template-columns: 1fr 1fr; } .filters label.search { grid-column: 1 / -1; }
+    table, thead, tbody, tr, td { display: block; } thead { display: none; }
+    tbody tr { border-bottom: 1px solid var(--line); padding: 8px 4px; } td { border: 0; padding: 3px 10px; }
+    td[data-label]::before { content: attr(data-label) ": "; font-weight: 600; color: var(--muted); font-size: .8rem; }
+    details ul { columns: 1; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Michigan Title IV-E Eligible Job Postings</h1>
+  <p>Open MDHHS and private agency positions that match the
+    <a href="https://michildwelfare.org/employment/" target="_blank" rel="noopener">Title IV-E Child Welfare Fellowship eligible positions list</a>.
+    Last updated <strong id="updated"></strong>.</p>
+</header>
+<main>
+  <div class="notice"><strong>Verify before accepting:</strong> Postings are matched automatically by job title and description.
+    Per the Fellowship, please verify every position with your university's Title IV-E Program Coordinator before accepting an offer.</div>
+
+  <section class="filters" aria-label="Filters">
+    <label class="search">Search<input id="q" type="search" placeholder="Title, agency, city, county…"></label>
+    <label>Employer type<select id="type"><option value="">All</option><option>MDHHS</option><option>Private</option></select></label>
+    <label>Agency<select id="agency"><option value="">All agencies</option></select></label>
+    <label>County<select id="county"><option value="">All counties</option></select></label>
+    <label>Eligible position<select id="role"><option value="">All eligible positions</option></select></label>
+    <div class="row2">
+      <label><input id="contOnly" type="checkbox"> Continuous postings only</label>
+      <label><input id="hideClosed" type="checkbox" checked> Hide postings past their closing date</label>
+      <button id="reset" type="button">Reset filters</button>
+    </div>
+  </section>
+
+  <div class="summary"><span id="count"></span><span>Download: <a href="jobs.csv" download>CSV</a> · <a href="jobs.json">JSON</a></span></div>
+
+  <table id="jobs">
+    <thead><tr>
+      <th data-key="title">Job title</th>
+      <th data-key="agency">Employer</th>
+      <th data-key="county">County</th>
+      <th data-key="city">City</th>
+      <th data-key="posted">Posted</th>
+      <th data-key="closes">Closes</th>
+      <th data-key="continuous">Continuous</th>
+      <th data-key="roles">Eligible position</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div id="empty" class="empty" hidden>No postings match these filters.</div>
+
+  <details id="eligible">
+    <summary>Eligible positions list (from michildwelfare.org)</summary>
+    <p class="muted" id="eligibleMeta"></p>
+    <div id="eligibleLists"></div>
+  </details>
+
+  <details id="sources">
+    <summary>Employers checked</summary>
+    <p class="muted">Each update checks these job boards. Agencies whose jobs can't be read automatically are listed with a link to their careers page so you can check them directly.</p>
+    <table class="src-table"><thead><tr><th>Employer</th><th>Status</th><th>Matching postings</th><th>Careers page</th></tr></thead><tbody></tbody></table>
+  </details>
+
+  <footer>Data from the State of Michigan NEOGOV job feed and private agency career sites. Not affiliated with MDHHS or the Michigan Title IV-E Child Welfare Fellowship.</footer>
+</main>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(() => {
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  const jobs = DATA.jobs;
+  const $ = id => document.getElementById(id);
+  const today = new Date().toISOString().slice(0, 10);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const fmtDate = d => d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", {month: "short", day: "numeric", year: "numeric"}) : "";
+  $("updated").textContent = new Date(DATA.generated_at).toLocaleString("en-US", {dateStyle: "medium", timeStyle: "short"});
+
+  const fill = (sel, values) => values.forEach(v => sel.add(new Option(v, v)));
+  fill($("agency"), [...new Set(jobs.map(j => j.agency))].sort((a, b) => a === "MDHHS" ? -1 : b === "MDHHS" ? 1 : a.localeCompare(b)));
+  fill($("county"), [...new Set(jobs.flatMap(j => j.counties))].sort());
+  fill($("role"), [...new Set(jobs.flatMap(j => j.roles))].sort());
+
+  let sortKey = "posted", sortDir = -1;
+  const sortVal = (j, k) => k === "county" ? j.counties.join(", ") : k === "roles" ? j.roles.join(", ")
+    : k === "continuous" ? (j.continuous === true ? 0 : j.continuous === false ? 1 : 2)
+    : k === "closes" ? (j.closes || (j.continuous ? "9999" : "9998")) : (j[k] || "");
+
+  function render() {
+    const q = $("q").value.trim().toLowerCase(), type = $("type").value, agency = $("agency").value,
+          county = $("county").value, role = $("role").value, contOnly = $("contOnly").checked, hideClosed = $("hideClosed").checked;
+    const rows = jobs.filter(j =>
+      (!type || j.employer_type === type) && (!agency || j.agency === agency) &&
+      (!county || j.counties.includes(county)) && (!role || j.roles.includes(role)) &&
+      (!contOnly || j.continuous === true) && (!hideClosed || !j.closes || j.closes >= today) &&
+      (!q || [j.title, j.agency, j.city, j.counties.join(" "), j.roles.join(" ")].join(" ").toLowerCase().includes(q))
+    ).sort((a, b) => {
+      const x = sortVal(a, sortKey), y = sortVal(b, sortKey);
+      return (x < y ? -1 : x > y ? 1 : 0) * sortDir || a.title.localeCompare(b.title);
+    });
+    $("jobs").tBodies[0].innerHTML = rows.map(j => `<tr>
+      <td class="title" data-label="Title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></td>
+      <td data-label="Employer">${esc(j.agency)}${j.employer_type === "Private" ? ' <span class="tag Private">Private agency</span>' : ""}</td>
+      <td data-label="County">${j.counties.length ? esc(j.counties.join(", ")) : '<span class="muted">Not listed</span>'}</td>
+      <td data-label="City">${j.city ? esc(j.city) : '<span class="muted">Not listed</span>'}</td>
+      <td data-label="Posted" class="nowrap">${j.posted ? fmtDate(j.posted) : '<span class="muted">Not listed</span>'}</td>
+      <td data-label="Closes" class="nowrap">${j.closes ? fmtDate(j.closes) : j.continuous ? '<span class="muted">Continuous</span>' : '<span class="muted">Not listed</span>'}</td>
+      <td data-label="Continuous">${j.continuous === true ? '<span class="tag cont">Yes</span>' : j.continuous === false ? '<span class="tag no">No</span>' : '<span class="muted">Not stated</span>'}</td>
+      <td data-label="Eligible position" class="roles">${esc(j.roles.join("; "))}</td>
+    </tr>`).join("");
+    $("empty").hidden = rows.length > 0;
+    const nM = rows.filter(j => j.employer_type === "MDHHS").length;
+    $("count").textContent = `Showing ${rows.length} of ${jobs.length} postings (${nM} MDHHS, ${rows.length - nM} private agency)`;
+    document.querySelectorAll("#jobs th").forEach(th => th.setAttribute("aria-sort", th.dataset.key === sortKey ? (sortDir > 0 ? "ascending" : "descending") : "none"));
+  }
+
+  document.querySelectorAll("#jobs th").forEach(th => th.addEventListener("click", () => {
+    if (sortKey === th.dataset.key) sortDir = -sortDir; else { sortKey = th.dataset.key; sortDir = th.dataset.key === "posted" ? -1 : 1; }
+    render();
+  }));
+  ["q", "type", "agency", "county", "role", "contOnly", "hideClosed"].forEach(id => $(id).addEventListener("input", render));
+  $("reset").addEventListener("click", () => {
+    ["q", "type", "agency", "county", "role"].forEach(id => $(id).value = "");
+    $("contOnly").checked = false; $("hideClosed").checked = true; render();
+  });
+  render();
+
+  const el = DATA.eligible;
+  $("eligibleMeta").innerHTML = `Source: <a href="${esc(el.source)}" target="_blank" rel="noopener">${esc(el.source)}</a> · retrieved ${esc(new Date(el.fetched_at).toLocaleDateString("en-US", {dateStyle: "medium"}))}. Tribal agency positions are listed for reference; tribal job boards are not included in the postings above.`;
+  const names = {mdhhs: "MDHHS", mdhhs_advanced: "MDHHS – Advanced level", private: "Private agencies", tribal: "Tribal agencies"};
+  $("eligibleLists").innerHTML = Object.entries(el.groups).map(([k, list]) =>
+    `<h3>${names[k] || esc(k)}</h3><ul>${list.map(p => `<li>${esc(p.title)}${p.detail ? ` <span class="muted">– ${esc(p.detail)}</span>` : ""}</li>`).join("")}</ul>`).join("");
+
+  document.querySelector("#sources tbody").innerHTML = DATA.sources.map(s => `<tr>
+    <td>${esc(s.name)}</td>
+    <td>${s.status === "ok" ? "Checked automatically" : s.status === "manual" ? '<span class="muted">Check careers page directly</span>' : `<span class="err" title="${esc(s.error || "")}">Couldn't read this update</span>`}</td>
+    <td>${s.status === "ok" ? s.matched : ""}</td>
+    <td>${s.careers_url ? `<a href="${esc(s.careers_url)}" target="_blank" rel="noopener">Careers</a>` : ""}</td></tr>`).join("");
+})();
+</script>
+</body>
+</html>
