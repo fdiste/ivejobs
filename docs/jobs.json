@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-16T23:19:40+00:00",
+ "generated_at": "2026-11-16T23:23:49+00:00",
  "eligible": {
   "source": "https://michildwelfare.org/employment/",
-  "fetched_at": "2026-11-16T22:54:34+00:00",
+  "fetched_at": "2026-11-16T23:22:37+00:00",
   "groups": {
    "mdhhs": [
     {
@@ -130,10 +130,9 @@
   {
    "name": "MDHHS",
    "type": "MDHHS",
-   "status": "error",
-   "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=michigan (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.governmentjobs.com', port=443) at 0x7f41418dcd70>, 'Connection to www.governmentjobs.com timed out. (connect timeout=120)'))",
+   "status": "ok",
    "careers_url": "https://www.governmentjobs.com/careers/michigan/mdhhs",
-   "matched": 0
+   "matched": 76
   },
   {
    "name": "Adoption Option",
@@ -420,7 +419,7 @@
    "type": "Private",
    "careers_url": "https://wellspringlutheran.com/careers",
    "status": "ok",
-   "matched": 8
+   "matched": 9
   },
   {
    "name": "West Michigan Partnership for Children",
@@ -522,6 +521,1300 @@
   }
  ],
  "jobs": [
+  {
+   "title": "Alger County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Alger"
+   ],
+   "city": "Munising",
+   "posted": "2026-06-24",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4629423-0"
+  },
+  {
+   "title": "Allegan County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Allegan"
+   ],
+   "city": "Allegan",
+   "posted": "2026-10-27",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625449-0"
+  },
+  {
+   "title": "Alpena/Montmorency County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Alpena",
+    "Montmorency"
+   ],
+   "city": "Alpena",
+   "posted": "2025-12-16",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4643266-0"
+  },
+  {
+   "title": "Antrim County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Antrim"
+   ],
+   "city": "Bellaire",
+   "posted": "2025-10-01",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4629846-0"
+  },
+  {
+   "title": "Arenac County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Arenac"
+   ],
+   "city": "Standish",
+   "posted": "2025-01-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4634800-0"
+  },
+  {
+   "title": "Barry County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Barry"
+   ],
+   "city": "Hastings",
+   "posted": "2026-09-29",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625597-0"
+  },
+  {
+   "title": "Bay County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Bay"
+   ],
+   "city": "Essexville",
+   "posted": "2025-01-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644445-0"
+  },
+  {
+   "title": "Benzie/Manistee County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Benzie",
+    "Manistee"
+   ],
+   "city": "Manistee",
+   "posted": "2025-01-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4636163-0"
+  },
+  {
+   "title": "Berrien County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Berrien"
+   ],
+   "city": "Benton Harbor",
+   "posted": "2026-11-16",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625463-0"
+  },
+  {
+   "title": "Branch/Hillsdale County - CPS & Foster Care - Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Branch",
+    "Hillsdale"
+   ],
+   "city": "Coldwater",
+   "posted": "2026-10-08",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5079832-0"
+  },
+  {
+   "title": "CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Emmet"
+   ],
+   "city": "Petoskey",
+   "posted": "2025-12-17",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5175053-0"
+  },
+  {
+   "title": "CPS & Foster Care Services Specialist 9-12 - Grand Traverse/Leelanau/Kalkaska County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Grand Traverse",
+    "Leelanau",
+    "Kalkaska"
+   ],
+   "city": "Traverse City",
+   "posted": "2026-11-09",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625730-0"
+  },
+  {
+   "title": "CPS & Foster Care Services Specialist 9-12 - Saginaw County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Saginaw"
+   ],
+   "city": "Saginaw",
+   "posted": "2026-10-28",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4619597-0"
+  },
+  {
+   "title": "Calhoun County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Calhoun"
+   ],
+   "city": "Battle Creek",
+   "posted": "2024-08-09",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4614693-0"
+  },
+  {
+   "title": "Cass County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Cass"
+   ],
+   "city": "Cassopolis",
+   "posted": "2026-08-03",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4538323-0"
+  },
+  {
+   "title": "Cheboygan County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Cheboygan"
+   ],
+   "city": "Cheboygan",
+   "posted": "2026-11-09",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644496-0"
+  },
+  {
+   "title": "Chippewa/Luce/Mackinac County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Chippewa",
+    "Luce",
+    "Mackinac"
+   ],
+   "city": "Sault Ste. Marie",
+   "posted": "2026-07-29",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4632746-0"
+  },
+  {
+   "title": "Clare/Isabella - Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Clare",
+    "Isabella"
+   ],
+   "city": "Harrison",
+   "posted": "2026-09-09",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5155700-0"
+  },
+  {
+   "title": "Clinton/Eaton County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Clinton",
+    "Eaton"
+   ],
+   "city": "Charlotte",
+   "posted": "2025-04-08",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644532-0"
+  },
+  {
+   "title": "Delta/Dickinson/Menominee County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Delta",
+    "Dickinson",
+    "Menominee"
+   ],
+   "city": "Escanaba",
+   "posted": "2025-05-06",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644487-0"
+  },
+  {
+   "title": "Emmet/Charlevoix County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Emmet",
+    "Charlevoix"
+   ],
+   "city": "Petoskey",
+   "posted": "2026-04-13",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4643254-0"
+  },
+  {
+   "title": "Genesee County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Genesee"
+   ],
+   "city": "Flint",
+   "posted": "2025-07-31",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4623136-0"
+  },
+  {
+   "title": "Gladwin/Midland County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Gladwin",
+    "Midland"
+   ],
+   "city": "Midland",
+   "posted": "2025-11-14",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4636149-0"
+  },
+  {
+   "title": "Gogebic/Ontonagon/Iron County Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Gogebic",
+    "Ontonagon",
+    "Iron"
+   ],
+   "city": "Bessemer",
+   "posted": "2026-01-30",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4617432-0"
+  },
+  {
+   "title": "Houghton/Keweenaw/Baraga County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Houghton",
+    "Keweenaw",
+    "Baraga"
+   ],
+   "city": "Houghton",
+   "posted": "2026-06-18",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4643288-0"
+  },
+  {
+   "title": "Huron/Tuscola County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Huron",
+    "Tuscola"
+   ],
+   "city": "Caro",
+   "posted": "2025-01-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644571-0"
+  },
+  {
+   "title": "Ingham County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Ingham"
+   ],
+   "city": "Lansing",
+   "posted": "2024-10-09",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644963-0"
+  },
+  {
+   "title": "Iosco/Alcona County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Iosco",
+    "Alcona"
+   ],
+   "city": "East Tawas",
+   "posted": "2025-01-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4632702-0"
+  },
+  {
+   "title": "Jackson County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Jackson"
+   ],
+   "city": "Jackson",
+   "posted": "2026-11-05",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4614601-0"
+  },
+  {
+   "title": "Kalamazoo County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "city": "Kalamazoo",
+   "posted": "2026-11-05",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4590797-0"
+  },
+  {
+   "title": "Kent County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Grand Rapids",
+   "posted": "2026-09-01",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4617130-0"
+  },
+  {
+   "title": "Lake County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Lake"
+   ],
+   "city": "Baldwin",
+   "posted": "2026-02-03",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644912-0"
+  },
+  {
+   "title": "Lapeer County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Lapeer"
+   ],
+   "city": "Lapeer",
+   "posted": "2024-08-27",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4636359-0"
+  },
+  {
+   "title": "Lenawee County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Lenawee"
+   ],
+   "city": "Adrian",
+   "posted": "2026-09-30",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625400-0"
+  },
+  {
+   "title": "Livingston County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Livingston"
+   ],
+   "city": "Howell",
+   "posted": "2026-10-21",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625667-0"
+  },
+  {
+   "title": "Macomb County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Macomb"
+   ],
+   "city": "Clinton Township",
+   "posted": "2026-11-05",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4590858-0"
+  },
+  {
+   "title": "Marquette County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Marquette"
+   ],
+   "city": "Marquette",
+   "posted": "2026-07-03",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4643154-0"
+  },
+  {
+   "title": "Mason County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Mason"
+   ],
+   "city": "Ludington",
+   "posted": "2025-01-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4636336-0"
+  },
+  {
+   "title": "Mecosta & Osceola County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Mecosta",
+    "Osceola"
+   ],
+   "city": "Big Rapids",
+   "posted": "2025-01-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644904-0"
+  },
+  {
+   "title": "Monroe County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Monroe"
+   ],
+   "city": "Monroe",
+   "posted": "2026-06-16",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625679-0"
+  },
+  {
+   "title": "Montcalm and Ionia County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Montcalm",
+    "Ionia"
+   ],
+   "city": null,
+   "posted": "2026-10-18",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4632793-0"
+  },
+  {
+   "title": "Muskegon County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Muskegon"
+   ],
+   "city": "Muskegon Heights",
+   "posted": "2026-09-01",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4617464-0"
+  },
+  {
+   "title": "Newaygo County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Newaygo"
+   ],
+   "city": "White Cloud",
+   "posted": "2026-02-03",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4629865-0"
+  },
+  {
+   "title": "Oakland County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Oakland"
+   ],
+   "city": "Pontiac",
+   "posted": "2026-04-14",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4617111-0"
+  },
+  {
+   "title": "Oceana County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Oceana"
+   ],
+   "city": "Hart",
+   "posted": "2026-02-03",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4643311-0"
+  },
+  {
+   "title": "Otsego/Crawford/Oscoda County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Otsego",
+    "Crawford",
+    "Oscoda"
+   ],
+   "city": null,
+   "posted": "2026-11-13",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4629858-0"
+  },
+  {
+   "title": "Ottawa County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Ottawa"
+   ],
+   "city": "Holland",
+   "posted": "2026-11-05",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4614617-0"
+  },
+  {
+   "title": "Presque Isle County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Presque Isle"
+   ],
+   "city": "Rogers City",
+   "posted": "2026-11-09",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4634848-0"
+  },
+  {
+   "title": "SSA/FTS (Clinton and Eaton County)",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Clinton",
+    "Eaton"
+   ],
+   "city": "Charlotte",
+   "posted": "2026-07-24",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5379874-0"
+  },
+  {
+   "title": "Schoolcraft - SS",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Schoolcraft"
+   ],
+   "city": "Manistique",
+   "posted": "2025-10-22",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5090139-0"
+  },
+  {
+   "title": "Services Specialist 9-12 - Adult Protective Services - Mason",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [],
+   "city": null,
+   "posted": "2026-11-16",
+   "closes": "2026-11-23",
+   "continuous": false,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5546984-0"
+  },
+  {
+   "title": "Services Specialist 9-12 - Centralized Intake Unit - Kent County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Grand Rapids",
+   "posted": "2025-12-01",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (Centralized Intake Unit)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/3252756-0"
+  },
+  {
+   "title": "Services Specialist 9-12 - Centralized Intake Unit - Wayne County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Wayne"
+   ],
+   "city": "Detroit",
+   "posted": "2023-10-04",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (Centralized Intake Unit)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/2649582-0"
+  },
+  {
+   "title": "Services Specialist 9-12 - North Central - Wayne County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Wayne"
+   ],
+   "city": "Detroit",
+   "posted": "2026-10-13",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5140377-0"
+  },
+  {
+   "title": "Services Specialist 9-12 - South Central - Wayne County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Wayne"
+   ],
+   "city": "Detroit",
+   "posted": "2026-09-01",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5138773-0"
+  },
+  {
+   "title": "Services Specialist Assistant (Montcalm/Ionia County)",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Montcalm",
+    "Ionia"
+   ],
+   "city": null,
+   "posted": "2026-08-25",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5115442-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Calhoun"
+   ],
+   "city": "Battle Creek",
+   "posted": "2026-06-17",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5154467-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Ingham"
+   ],
+   "city": "Lansing",
+   "posted": "2026-05-04",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5341795-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 (Family Team Support) - Cass County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Cass"
+   ],
+   "city": "Cassopolis",
+   "posted": "2026-10-08",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5239688-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 (Family Team Support) - Kalamazoo County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "city": "Kalamazoo",
+   "posted": "2026-11-10",
+   "closes": "2026-11-17",
+   "continuous": false,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5240955-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 (Family Team Support) - St. Joseph",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "St. Joseph"
+   ],
+   "city": "Centreville",
+   "posted": "2026-09-01",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5239405-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 - Berrien County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Berrien"
+   ],
+   "city": "Benton Harbor",
+   "posted": "2026-11-02",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5242903-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 - Dickinson County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Dickinson"
+   ],
+   "city": "Iron Mountain",
+   "posted": "2026-11-16",
+   "closes": "2026-11-23",
+   "continuous": false,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5537576-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 - FTS",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [],
+   "city": null,
+   "posted": "2026-11-10",
+   "closes": "2026-11-30",
+   "continuous": false,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5237394-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 - Family Team Support (FTS) - Macomb County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Macomb"
+   ],
+   "city": "Clinton Township",
+   "posted": "2026-07-24",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5331984-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 - Family Team Support - Muskegon County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Muskegon"
+   ],
+   "city": "Muskegon Heights",
+   "posted": "2026-06-02",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5277086-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 - Van Buren County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Van Buren"
+   ],
+   "city": "Hartford",
+   "posted": "2026-10-12",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5248515-0"
+  },
+  {
+   "title": "Services Specialist Assistant FTS 8-E10 - Gladwin/Midland",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Gladwin",
+    "Midland"
+   ],
+   "city": "Midland",
+   "posted": "2026-05-05",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5331284-0"
+  },
+  {
+   "title": "Services Specialist Assistant FTS 8-E10 - Menominee",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Menominee"
+   ],
+   "city": "Menominee",
+   "posted": "2026-11-13",
+   "closes": "2026-11-20",
+   "continuous": false,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5339505-0"
+  },
+  {
+   "title": "Services Specialist Assistant FTS 8-E10 - Shiawassee/Gratiot",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Shiawassee",
+    "Gratiot"
+   ],
+   "city": "Owosso",
+   "posted": "2026-05-05",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5331257-0"
+  },
+  {
+   "title": "Shiawassee/Gratiot County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Shiawassee",
+    "Gratiot"
+   ],
+   "city": "Owosso",
+   "posted": "2025-03-18",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4634869-0"
+  },
+  {
+   "title": "St. Clair & Sanilac County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "St. Clair",
+    "Sanilac"
+   ],
+   "city": "Port Huron",
+   "posted": "2024-08-16",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4623159-0"
+  },
+  {
+   "title": "St. Joseph County County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "St. Joseph"
+   ],
+   "city": "Centreville",
+   "posted": "2026-09-01",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4617453-0"
+  },
+  {
+   "title": "Van Buren County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Van Buren"
+   ],
+   "city": "Hartford",
+   "posted": "2026-11-16",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625554-0"
+  },
+  {
+   "title": "Washtenaw County CPS & Foster Care Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Washtenaw"
+   ],
+   "city": "Ypsilanti",
+   "posted": "2025-01-10",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625745-0"
+  },
+  {
+   "title": "Wexford/Missaukee CPS & Foster Care - Services Specialist 9-12",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Wexford",
+    "Missaukee"
+   ],
+   "city": "Cadillac",
+   "posted": "2025-11-03",
+   "closes": null,
+   "continuous": true,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)",
+    "Services Specialist 9-11 (Foster Care Case Manager)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5131777-0"
+  },
   {
    "title": "Foster Care/Adoption Specialist",
    "agency": "Adoption Option",
@@ -1816,6 +3109,22 @@
    "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Administrative-Assistant---Foster-Care_R-100266"
   },
   {
+   "title": "Case Manager Supervisor",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Otsego"
+   ],
+   "city": "Gaylord",
+   "posted": "2026-11-13",
+   "closes": "2026-11-23",
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Gaylord-MI/Case-Manager-Supervisor_R-100240"
+  },
+  {
    "title": "Foster Care Case Manager",
    "agency": "Wellspring Lutheran Services",
    "employer_type": "Private",
@@ -1840,7 +3149,7 @@
    ],
    "city": "Gaylord",
    "posted": "2026-11-13",
-   "closes": null,
+   "closes": "2026-11-23",
    "continuous": null,
    "roles": [
     "Foster Care Worker"
@@ -1856,7 +3165,7 @@
    ],
    "city": "Bingham Farms",
    "posted": "2026-11-11",
-   "closes": null,
+   "closes": "2026-11-20",
    "continuous": null,
    "roles": [
     "Foster Care Worker"
@@ -1871,7 +3180,7 @@
     "Kalamazoo"
    ],
    "city": "Kalamazoo",
-   "posted": null,
+   "posted": "2026-09-25",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -1904,7 +3213,7 @@
    ],
    "city": "Bingham Farms",
    "posted": "2026-11-11",
-   "closes": null,
+   "closes": "2026-11-19",
    "continuous": null,
    "roles": [
     "Foster Home Licensing/GROW Trainer"
