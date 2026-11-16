@@ -3,6 +3,9 @@ REM Refresh the Title IV-E job postings site and publish it to GitHub.
 REM Double-click this file, or run it from a terminal.
 cd /d "%~dp0"
 
+REM Get any automatic updates GitHub made since the last run.
+git pull --rebase --autostash
+
 py -m ivejobs.build %*
 if errorlevel 1 (
     echo.

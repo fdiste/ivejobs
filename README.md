@@ -8,6 +8,11 @@ closing date, whether it is continuous, and which eligible position it matches.
 
 ## Updating the site
 
+The site updates itself every morning through GitHub Actions (`.github/workflows/update.yml`). The automatic
+update uses the saved eligible positions list, since michildwelfare.org blocks GitHub's servers. To run it right
+away, go to the repository's **Actions** tab → **Update job postings** → **Run workflow**.
+
+To update by hand (this also refreshes the eligible positions list):
 Double-click **`update.bat`**. A Chrome window opens briefly off-screen to read michildwelfare.org, which blocks
 simple scrapers. When it finishes, the updated site is committed and pushed to GitHub, and you can open
 **`docs/index.html`** to view it locally. (`py -m ivejobs.build` rebuilds the site without pushing.)

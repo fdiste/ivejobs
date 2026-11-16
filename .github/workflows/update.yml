@@ -1,0 +1,49 @@
+name: Update job postings
+
+on:
+  schedule:
+    # Every day at 11:17 UTC (about 6-7am Michigan time). GitHub may start it a few minutes late.
+    - cron: "17 11 * * *"
+  workflow_dispatch: # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-jobs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: America/Detroit
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # The eligible positions list rarely changes, and michildwelfare.org blocks
+      # cloud servers, so use the saved copy in data/eligible_positions.json.
+      - name: Build site
+        run: python -m ivejobs.build --no-refresh-eligible
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes since the last update."
+            exit 0
+          fi
+          git commit -m "Update job postings $(date '+%a %m/%d/%Y %H:%M') (automatic)"
+          git pull --rebase
+          git push
