@@ -48,6 +48,12 @@
   details ul { margin: 0; padding-left: 20px; columns: 2; } details li { break-inside: avoid; margin-bottom: 2px; }
   .src-table { width: 100%; font-size: .88rem; margin-top: 10px; } .src-table td, .src-table th { padding: 5px 8px; position: static; }
   .err { color: #a3261b; }
+  .pager { display: flex; justify-content: center; align-items: center; gap: 6px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .pager button { font: inherit; min-width: 36px; padding: 6px 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 6px; cursor: pointer; }
+  .pager button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .pager button[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; cursor: default; }
+  .pager button:disabled:not([aria-current]) { opacity: .45; cursor: default; }
+  .pager .gap { color: var(--muted); padding: 0 2px; }
   footer { color: var(--muted); font-size: .82rem; text-align: center; margin-top: 26px; }
   @media (max-width: 900px) {
     .filters { grid-template-columns: 1fr 1fr; } .filters label.search { grid-column: 1 / -1; }
@@ -98,6 +104,7 @@
     <tbody></tbody>
   </table>
   <div id="empty" class="empty" hidden>No postings match these filters.</div>
+  <nav id="pager" class="pager" aria-label="Pages"></nav>
 
   <details id="eligible">
     <summary>Eligible positions list (from michildwelfare.org)</summary>
@@ -130,7 +137,8 @@
   fill($("county"), [...new Set(jobs.flatMap(j => j.counties))].sort());
   fill($("role"), [...new Set(jobs.flatMap(j => j.roles))].sort());
 
-  let sortKey = "posted", sortDir = -1;
+  const PAGE_SIZE = 25;
+  let sortKey = "posted", sortDir = -1, page = 1;
   const sortVal = (j, k) => k === "county" ? j.counties.join(", ") : k === "roles" ? j.roles.join(", ")
     : k === "continuous" ? (j.continuous === true ? 0 : j.continuous === false ? 1 : 2)
     : k === "closes" ? (j.closes || (j.continuous ? "9999" : "9998")) : (j[k] || "");
@@ -147,7 +155,10 @@
       const x = sortVal(a, sortKey), y = sortVal(b, sortKey);
       return (x < y ? -1 : x > y ? 1 : 0) * sortDir || a.title.localeCompare(b.title);
     });
-    $("jobs").tBodies[0].innerHTML = rows.map(j => `<tr>
+    const pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+    page = Math.min(Math.max(1, page), pages);
+    const start = (page - 1) * PAGE_SIZE, pageRows = rows.slice(start, start + PAGE_SIZE);
+    $("jobs").tBodies[0].innerHTML = pageRows.map(j => `<tr>
       <td class="title" data-label="Title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></td>
       <td data-label="Employer">${esc(j.agency)}${j.employer_type === "Private" ? ' <span class="tag Private">Private agency</span>' : j.employer_type === "Tribal" ? ' <span class="tag Tribal">Tribal agency</span>' : ""}</td>
       <td data-label="County">${j.counties.length ? esc(j.counties.join(", ")) : '<span class="muted">Not listed</span>'}</td>
@@ -159,18 +170,41 @@
     </tr>`).join("");
     $("empty").hidden = rows.length > 0;
     const n = t => rows.filter(j => j.employer_type === t).length;
-    $("count").textContent = `Showing ${rows.length} of ${jobs.length} postings (${n("MDHHS")} MDHHS, ${n("Private")} private agency, ${n("Tribal")} tribal agency)`;
+    const range = rows.length > PAGE_SIZE ? `${start + 1}–${start + pageRows.length} of ` : "";
+    $("count").textContent = `Showing ${range}${rows.length} matching postings out of ${jobs.length} (${n("MDHHS")} MDHHS, ${n("Private")} private agency, ${n("Tribal")} tribal agency)`;
+    renderPager(pages);
     document.querySelectorAll("#jobs th").forEach(th => th.setAttribute("aria-sort", th.dataset.key === sortKey ? (sortDir > 0 ? "ascending" : "descending") : "none"));
   }
 
+  function renderPager(pages) {
+    const nav = $("pager");
+    if (pages <= 1) { nav.innerHTML = ""; return; }
+    // Show first, last, and a window around the current page, with gaps as "…".
+    const nums = [...new Set([1, page - 2, page - 1, page, page + 1, page + 2, pages])].filter(p => p >= 1 && p <= pages).sort((a, b) => a - b);
+    const btn = (label, p, extra = "") => `<button type="button" data-page="${p}" ${extra}>${label}</button>`;
+    let html = btn("‹ Prev", page - 1, page === 1 ? "disabled" : 'aria-label="Previous page"');
+    nums.forEach((p, i) => {
+      if (i && p - nums[i - 1] > 1) html += '<span class="gap">…</span>';
+      html += btn(p, p, p === page ? 'aria-current="page" disabled' : `aria-label="Page ${p}"`);
+    });
+    html += btn("Next ›", page + 1, page === pages ? "disabled" : 'aria-label="Next page"');
+    nav.innerHTML = html;
+  }
+  $("pager").addEventListener("click", e => {
+    const b = e.target.closest("button[data-page]");
+    if (!b || b.disabled) return;
+    page = +b.dataset.page; render();
+    $("count").scrollIntoView({behavior: "smooth", block: "start"});
+  });
+
   document.querySelectorAll("#jobs th").forEach(th => th.addEventListener("click", () => {
     if (sortKey === th.dataset.key) sortDir = -sortDir; else { sortKey = th.dataset.key; sortDir = th.dataset.key === "posted" ? -1 : 1; }
-    render();
+    page = 1; render();
   }));
-  ["q", "type", "agency", "county", "role", "contOnly", "hideClosed"].forEach(id => $(id).addEventListener("input", render));
+  ["q", "type", "agency", "county", "role", "contOnly", "hideClosed"].forEach(id => $(id).addEventListener("input", () => { page = 1; render(); }));
   $("reset").addEventListener("click", () => {
     ["q", "type", "agency", "county", "role"].forEach(id => $(id).value = "");
-    $("contOnly").checked = false; $("hideClosed").checked = true; render();
+    $("contOnly").checked = false; $("hideClosed").checked = true; page = 1; render();
   });
   render();
 
