@@ -1,0 +1,6 @@
+# Chrome profile used by the scraper (cache, cookies) - never commit
+data/.browser-profile/
+
+# Python bytecode
+__pycache__/
+*.pyc

@@ -9,6 +9,7 @@
  "bingham farms": "Oakland",
  "caledonia": "Kent",
  "charlotte": "Eaton",
+ "comstock": "Kalamazoo",
  "dearborn": "Wayne",
  "dearborn heights": "Wayne",
  "detroit": "Wayne",
@@ -28,6 +29,7 @@
  "livonia": "Wayne",
  "lowell": "Kent",
  "macomb": null,
+ "mattawan": "Van Buren",
  "midland": "Midland",
  "muskegon": "Muskegon",
  "paw paw": "Van Buren",
@@ -41,6 +43,7 @@
  "southfield": "Oakland",
  "taylor": "Wayne",
  "traverse city": "Grand Traverse",
+ "vicksburg": "Kalamazoo",
  "warren": "Macomb",
  "waterford": "Oakland"
 }

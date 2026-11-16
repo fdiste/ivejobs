@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-05T15:47:04+00:00",
+ "generated_at": "2026-11-16T22:09:28+00:00",
  "eligible": {
   "source": "https://michildwelfare.org/employment/",
-  "fetched_at": "2026-11-05T15:46:15+00:00",
+  "fetched_at": "2026-11-16T22:08:13+00:00",
   "groups": {
    "mdhhs": [
     {
@@ -131,7 +131,7 @@
    "name": "MDHHS",
    "status": "ok",
    "careers_url": "https://www.governmentjobs.com/careers/michigan/mdhhs",
-   "matched": 78
+   "matched": 76
   },
   {
    "name": "Adoption Option",
@@ -143,13 +143,13 @@
    "name": "Bethany Christian Services",
    "careers_url": "https://bethany.org/about-us/careers",
    "status": "ok",
-   "matched": 14
+   "matched": 16
   },
   {
    "name": "Catholic Charities of Ingham, Eaton & Clinton (St. Vincent)",
    "careers_url": "https://catholiccharitiesiec.org/careers/",
    "status": "ok",
-   "matched": 0
+   "matched": 1
   },
   {
    "name": "Catholic Charities of Jackson, Lenawee & Hillsdale",
@@ -173,7 +173,7 @@
    "name": "Catholic Charities West Michigan",
    "careers_url": "https://ccwestmi.org/careers/",
    "status": "ok",
-   "matched": 10
+   "matched": 9
   },
   {
    "name": "Catholic Human Services",
@@ -221,7 +221,7 @@
    "name": "D.A. Blodgett-St. John's",
    "careers_url": "https://dabsj.org/careers/",
    "status": "ok",
-   "matched": 2
+   "matched": 3
   },
   {
    "name": "Eagle Village",
@@ -233,13 +233,13 @@
    "name": "Ennis Center for Children",
    "careers_url": "https://www.enniscenter.org/employment",
    "status": "ok",
-   "matched": 15
+   "matched": 16
   },
   {
    "name": "Family & Children Services (Kalamazoo)",
    "careers_url": "https://fcsource.org/careers/",
    "status": "ok",
-   "matched": 1
+   "matched": 2
   },
   {
    "name": "Family Service & Children's Aid (Jackson)",
@@ -263,7 +263,7 @@
    "name": "Fostering Futures",
    "careers_url": "http://www.ffkids.org/career",
    "status": "ok",
-   "matched": 1
+   "matched": 2
   },
   {
    "name": "Fostering Solutions",
@@ -305,7 +305,7 @@
    "name": "Judson Center",
    "careers_url": "https://judsoncenter.org/careers-and-jobs/open-positions/",
    "status": "ok",
-   "matched": 7
+   "matched": 6
   },
   {
    "name": "Methodist Children's Home Society",
@@ -335,7 +335,7 @@
    "name": "Samaritas",
    "careers_url": "https://samaritas.org/apply-now/",
    "status": "ok",
-   "matched": 7
+   "matched": 5
   },
   {
    "name": "Spaulding for Children",
@@ -347,7 +347,7 @@
    "name": "The Children's Center (Detroit)",
    "careers_url": "https://www.thechildrenscenter.com/careers/",
    "status": "ok",
-   "matched": 0
+   "matched": 1
   },
   {
    "name": "U.P. Kids",
@@ -365,7 +365,7 @@
    "name": "Vista Maria",
    "careers_url": "https://www.vistamaria.org/careers/",
    "status": "ok",
-   "matched": 2
+   "matched": 3
   },
   {
    "name": "Wedgwood Christian Services",
@@ -377,7 +377,7 @@
    "name": "Wellspring Lutheran Services",
    "careers_url": "https://wellspringlutheran.com/careers",
    "status": "ok",
-   "matched": 7
+   "matched": 9
   },
   {
    "name": "West Michigan Partnership for Children",
@@ -389,7 +389,7 @@
    "name": "Wolverine Human Services",
    "careers_url": "https://www.wolverinehs.org/join-our-team/careers/employment-opportunities/",
    "status": "ok",
-   "matched": 5
+   "matched": 4
   }
  ],
  "jobs": [
@@ -539,7 +539,7 @@
     "Berrien"
    ],
    "city": "Benton Harbor",
-   "posted": "2026-10-26",
+   "posted": "2026-11-16",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -593,7 +593,7 @@
     "Kalkaska"
    ],
    "city": "Traverse City",
-   "posted": "2026-10-27",
+   "posted": "2026-11-09",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -661,7 +661,7 @@
     "Cheboygan"
    ],
    "city": "Cheboygan",
-   "posted": "2026-10-27",
+   "posted": "2026-11-09",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -894,7 +894,7 @@
     "Jackson"
    ],
    "city": "Jackson",
-   "posted": "2026-03-19",
+   "posted": "2026-11-05",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -911,7 +911,7 @@
     "Kalamazoo"
    ],
    "city": "Kalamazoo",
-   "posted": "2026-08-03",
+   "posted": "2026-11-05",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -936,20 +936,6 @@
     "Services Specialist 9-11 (Foster Care Case Manager)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4617130-0"
-  },
-  {
-   "title": "LTA",
-   "agency": "MDHHS",
-   "employer_type": "MDHHS",
-   "counties": [],
-   "city": null,
-   "posted": "2026-05-01",
-   "closes": "2026-11-08",
-   "continuous": false,
-   "roles": [
-    "Services Specialist Assistant 8-10 (Family Teams Support)"
-   ],
-   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5178787-0"
   },
   {
    "title": "Lake County CPS & Foster Care Services Specialist 9-12",
@@ -1027,7 +1013,7 @@
     "Macomb"
    ],
    "city": "Clinton Township",
-   "posted": "2026-06-04",
+   "posted": "2026-11-05",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1201,7 +1187,7 @@
     "Oscoda"
    ],
    "city": null,
-   "posted": "2026-10-03",
+   "posted": "2026-11-13",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1218,7 +1204,7 @@
     "Ottawa"
    ],
    "city": "Holland",
-   "posted": "2026-09-01",
+   "posted": "2026-11-05",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1235,7 +1221,7 @@
     "Presque Isle"
    ],
    "city": "Rogers City",
-   "posted": "2026-10-20",
+   "posted": "2026-11-09",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1243,38 +1229,6 @@
     "Services Specialist 9-11 (Foster Care Case Manager)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4634848-0"
-  },
-  {
-   "title": "SPM 14",
-   "agency": "MDHHS",
-   "employer_type": "MDHHS",
-   "counties": [
-    "Newaygo"
-   ],
-   "city": "Newaygo",
-   "posted": "2026-11-04",
-   "closes": "2026-11-11",
-   "continuous": false,
-   "roles": [
-    "Services Program Manager 14- Children's Services Supervisor"
-   ],
-   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5538279-0"
-  },
-  {
-   "title": "SSA/FTS",
-   "agency": "MDHHS",
-   "employer_type": "MDHHS",
-   "counties": [
-    "Bay"
-   ],
-   "city": "Bay City",
-   "posted": "2026-04-28",
-   "closes": "2026-11-09",
-   "continuous": false,
-   "roles": [
-    "Services Specialist Assistant 8-10 (Family Teams Support)"
-   ],
-   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5253332-0"
   },
   {
    "title": "SSA/FTS (Clinton and Eaton County)",
@@ -1308,6 +1262,20 @@
     "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5090139-0"
+  },
+  {
+   "title": "Services Specialist 9-12 - Adult Protective Services - Mason",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [],
+   "city": null,
+   "posted": "2026-11-16",
+   "closes": "2026-11-23",
+   "continuous": false,
+   "roles": [
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5546984-0"
   },
   {
    "title": "Services Specialist 9-12 - Centralized Intake Unit - Kent County",
@@ -1439,6 +1407,22 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5239688-0"
   },
   {
+   "title": "Services Specialist Assistant 8-E10 (Family Team Support) - Kalamazoo County",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "city": "Kalamazoo",
+   "posted": "2026-11-10",
+   "closes": "2026-11-17",
+   "continuous": false,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5240955-0"
+  },
+  {
    "title": "Services Specialist Assistant 8-E10 (Family Team Support) - St. Joseph",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
@@ -1453,22 +1437,6 @@
     "Services Specialist Assistant 8-10 (Family Teams Support)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5239405-0"
-  },
-  {
-   "title": "Services Specialist Assistant 8-E10 - Barry County",
-   "agency": "MDHHS",
-   "employer_type": "MDHHS",
-   "counties": [
-    "Barry"
-   ],
-   "city": "Hastings",
-   "posted": "2026-10-29",
-   "closes": "2026-11-05",
-   "continuous": false,
-   "roles": [
-    "Services Specialist Assistant 8-10 (Family Teams Support)"
-   ],
-   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5523843-0"
   },
   {
    "title": "Services Specialist Assistant 8-E10 - Berrien County",
@@ -1494,13 +1462,27 @@
     "Dickinson"
    ],
    "city": "Iron Mountain",
-   "posted": "2026-11-02",
-   "closes": "2026-11-09",
+   "posted": "2026-11-16",
+   "closes": "2026-11-23",
    "continuous": false,
    "roles": [
     "Services Specialist Assistant 8-10 (Family Teams Support)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5537576-0"
+  },
+  {
+   "title": "Services Specialist Assistant 8-E10 - FTS",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [],
+   "city": null,
+   "posted": "2026-11-10",
+   "closes": "2026-11-30",
+   "continuous": false,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5237394-0"
   },
   {
    "title": "Services Specialist Assistant 8-E10 - Family Team Support (FTS) - Macomb County",
@@ -1517,22 +1499,6 @@
     "Services Specialist Assistant 8-10 (Family Teams Support)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5331984-0"
-  },
-  {
-   "title": "Services Specialist Assistant 8-E10 - Family Team Support - Jackson County",
-   "agency": "MDHHS",
-   "employer_type": "MDHHS",
-   "counties": [
-    "Jackson"
-   ],
-   "city": "Jackson",
-   "posted": "2026-10-30",
-   "closes": "2026-11-06",
-   "continuous": false,
-   "roles": [
-    "Services Specialist Assistant 8-10 (Family Teams Support)"
-   ],
-   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5300231-0"
   },
   {
    "title": "Services Specialist Assistant 8-E10 - Family Team Support - Muskegon County",
@@ -1567,22 +1533,6 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5248515-0"
   },
   {
-   "title": "Services Specialist Assistant 8-E10 Family Team Support - Wayne County (South Central)",
-   "agency": "MDHHS",
-   "employer_type": "MDHHS",
-   "counties": [
-    "Wayne"
-   ],
-   "city": "Detroit",
-   "posted": "2026-09-01",
-   "closes": null,
-   "continuous": true,
-   "roles": [
-    "Services Specialist Assistant 8-10 (Family Teams Support)"
-   ],
-   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5341916-0"
-  },
-  {
    "title": "Services Specialist Assistant FTS 8-E10 - Gladwin/Midland",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
@@ -1598,6 +1548,22 @@
     "Services Specialist Assistant 8-10 (Family Teams Support)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5331284-0"
+  },
+  {
+   "title": "Services Specialist Assistant FTS 8-E10 - Menominee",
+   "agency": "MDHHS",
+   "employer_type": "MDHHS",
+   "counties": [
+    "Menominee"
+   ],
+   "city": "Menominee",
+   "posted": "2026-11-13",
+   "closes": "2026-11-20",
+   "continuous": false,
+   "roles": [
+    "Services Specialist Assistant 8-10 (Family Teams Support)"
+   ],
+   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5339505-0"
   },
   {
    "title": "Services Specialist Assistant FTS 8-E10 - Shiawassee/Gratiot",
@@ -1677,7 +1643,7 @@
     "Van Buren"
    ],
    "city": "Hartford",
-   "posted": "2026-10-26",
+   "posted": "2026-11-16",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1763,13 +1729,13 @@
     "Wayne"
    ],
    "city": "Detroit",
-   "posted": "2026-08-26",
+   "posted": "2026-11-16",
    "closes": null,
    "continuous": null,
    "roles": [
     "Foster Home Licensing/GROW Trainer"
    ],
-   "url": "https://apply.appone.com/job/6a8f41e3d2155dfaf69c5e19"
+   "url": "https://apply.appone.com/job/6afb40894e123e13f2b9ba64"
   },
   {
    "title": "Foster Care Adoption Specialist",
@@ -1787,6 +1753,22 @@
     "Adoption Worker"
    ],
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=f0aaeade-65c4-45d7-9f2c-02b65ea5b46b"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Grand Rapids",
+   "posted": "2026-11-09",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=4f420484-e66f-49be-b57b-24e4a295c5c6"
   },
   {
    "title": "Foster Care Case Manager",
@@ -1901,20 +1883,52 @@
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=442fd918-8f54-41ba-a0b0-747c43ff6d46"
   },
   {
-   "title": "Foster Care Case Manager",
+   "title": "Foster Care Clerk",
    "agency": "Bethany Christian Services",
    "employer_type": "Private",
    "counties": [
-    "Kent"
+    "Kalamazoo"
    ],
-   "city": "Grand Rapids",
-   "posted": "2026-09-23",
+   "city": "Kalamazoo",
+   "posted": "2026-11-13",
    "closes": null,
    "continuous": null,
    "roles": [
     "Foster Care Worker"
    ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=4f420484-e66f-49be-b57b-24e4a295c5c6"
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=cd129381-f7a4-434d-bcd9-be8c60b78f83"
+  },
+  {
+   "title": "Foster Care Clerk",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Oakland"
+   ],
+   "city": "Southfield",
+   "posted": "2026-11-10",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=94cc9fcf-d2c1-48c6-ab5f-5151aaa9abd0"
+  },
+  {
+   "title": "Foster Care Licensing Specialist",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Muskegon"
+   ],
+   "city": "Muskegon",
+   "posted": "2026-11-16",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Home Licensing/GROW Trainer"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=f9eb8e82-5bad-44e5-bf8b-b8ed5af6a95a"
   },
   {
    "title": "Foster Care Supervisor",
@@ -1981,38 +1995,6 @@
     "Unaccompanied Refugee Minor Caseworker"
    ],
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=ea615bd4-28bf-425c-91c3-503a7c208653"
-  },
-  {
-   "title": "Refugee Group Home Unit Supervisor",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Kent"
-   ],
-   "city": "Grand Rapids",
-   "posted": "2026-10-26",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Program Supervisor (Adoption, Foster Care, Licensing)"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=a4511ebd-fdc8-48e4-a9a4-f78cde176fd1"
-  },
-  {
-   "title": "Child Welfare Supervisor",
-   "agency": "Catholic Charities West Michigan",
-   "employer_type": "Private",
-   "counties": [
-    "Kent"
-   ],
-   "city": "Grand Rapids",
-   "posted": null,
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Program Supervisor (Adoption, Foster Care, Licensing)"
-   ],
-   "url": "https://careers-ccwestmi.icims.com/jobs/1697/child-welfare--supervisor/job"
   },
   {
    "title": "Foster Care Specialist",
@@ -2111,6 +2093,22 @@
    "url": "https://careers-ccwestmi.icims.com/jobs/1648/foster-care-specialist/job"
   },
   {
+   "title": "Foster Care Supervisor",
+   "agency": "Catholic Charities West Michigan",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Grand Rapids",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://careers-ccwestmi.icims.com/jobs/1703/foster-care-supervisor/job"
+  },
+  {
    "title": "Foster Care Team Lead",
    "agency": "Catholic Charities West Michigan",
    "employer_type": "Private",
@@ -2131,22 +2129,6 @@
    "agency": "Catholic Charities West Michigan",
    "employer_type": "Private",
    "counties": [
-    "Kent"
-   ],
-   "city": "Grand Rapids",
-   "posted": null,
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Program Supervisor (Adoption, Foster Care, Licensing)"
-   ],
-   "url": "https://careers-ccwestmi.icims.com/jobs/1670/foster-care-team-lead/job"
-  },
-  {
-   "title": "Foster Care Team Lead",
-   "agency": "Catholic Charities West Michigan",
-   "employer_type": "Private",
-   "counties": [
     "Berrien"
    ],
    "city": "Benton Harbor",
@@ -2157,6 +2139,22 @@
     "Program Supervisor (Adoption, Foster Care, Licensing)"
    ],
    "url": "https://careers-ccwestmi.icims.com/jobs/1580/foster-care-team-lead/job"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Catholic Charities of Ingham, Eaton & Clinton (St. Vincent)",
+   "employer_type": "Private",
+   "counties": [
+    "Ingham"
+   ],
+   "city": "Lansing",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c681b199c90181f9436d4c20e0&id=8a78879e9b137690019bdc6ead6b4226&source=&lang=en"
   },
   {
    "title": "Foster Care Case Manager",
@@ -2202,7 +2200,7 @@
    "roles": [
     "Foster Care Worker"
    ],
-   "url": "https://secure.entertimeonline.com/ta/ChildFamily.careers?ShowJob=906103499"
+   "url": "https://secure.entertimeonline.com/ta/ChildFamily.careers?ShowJob=906117650"
   },
   {
    "title": "Child Welfare Specialist",
@@ -2249,6 +2247,22 @@
     "Foster Care Worker"
    ],
    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4439744"
+  },
+  {
+   "title": "Child Welfare Supervisor",
+   "agency": "D.A. Blodgett-St. John's",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Grand Rapids",
+   "posted": "2026-11-11",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4658319"
   },
   {
    "title": "Adoption Specialist",
@@ -2415,6 +2429,22 @@
    "agency": "Ennis Center for Children",
    "employer_type": "Private",
    "counties": [
+    "Saginaw"
+   ],
+   "city": "Saginaw",
+   "posted": "2026-11-12",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=7227757&B_ID=91&fid=1&SearchScreenID=26387&ssbgcolor=#FFFFFF"
+  },
+  {
+   "title": "Foster Care Supervisor",
+   "agency": "Ennis Center for Children",
+   "employer_type": "Private",
+   "counties": [
     "Wayne"
    ],
    "city": "Detroit",
@@ -2503,6 +2533,22 @@
    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/2959007"
   },
   {
+   "title": "Foster Care Supervisor",
+   "agency": "Family & Children Services (Kalamazoo)",
+   "employer_type": "Private",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "city": "Kalamazoo",
+   "posted": "2026-11-10",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3581120"
+  },
+  {
    "title": "Foster Care Specialist",
    "agency": "Forever Families",
    "employer_type": "Private",
@@ -2517,6 +2563,20 @@
     "Foster Care Worker"
    ],
    "url": "https://www.forever-families.org/careers/"
+  },
+  {
+   "title": "FOSTER CARE & Adoption SUPERVISOR",
+   "agency": "Fostering Futures",
+   "employer_type": "Private",
+   "counties": [],
+   "city": null,
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "http://www.ffkids.org/career"
   },
   {
    "title": "foster care case manager",
@@ -2540,7 +2600,7 @@
     "Wayne"
    ],
    "city": "Belleville",
-   "posted": "2026-10-14",
+   "posted": "2026-11-12",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2661,22 +2721,6 @@
    "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a78826755c3a6740155cbced31805fb&id=8a7887a8a18473d601a188eee4bc17dd&source=&lang=en"
   },
   {
-   "title": "Post Adoption Resource Center Family worker",
-   "agency": "Judson Center",
-   "employer_type": "Private",
-   "counties": [
-    "Genesee"
-   ],
-   "city": "Flint",
-   "posted": null,
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Adoption Worker"
-   ],
-   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a78826755c3a6740155cbced31805fb&id=8a7887a1a0f425da01a0f9307fc24fcf&source=&lang=en"
-  },
-  {
    "title": "Foster Care Case Manager",
    "agency": "Methodist Children's Home Society",
    "employer_type": "Private",
@@ -2756,24 +2800,6 @@
    "url": "https://orchards.org/wp-content/uploads/2026/05/FOSTER-CARELICENSING-SOCIAL-WORKER.pdf"
   },
   {
-   "title": "Adoption Specialist ~ Bay City / Saginaw Area - Full time",
-   "agency": "Samaritas",
-   "employer_type": "Private",
-   "counties": [
-    "Saginaw",
-    "Bay",
-    "Midland"
-   ],
-   "city": "Bay City, Saginaw, Freeland, Midland",
-   "posted": "2026-10-22",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Adoption Worker"
-   ],
-   "url": "https://samaritas.clearcompany.com/careers/jobs/94a00fdc-103a-635d-af5a-62d32b775893"
-  },
-  {
    "title": "Foster Care Case Manager - Full Time - Grand Rapids, MI",
    "agency": "Samaritas",
    "employer_type": "Private",
@@ -2824,6 +2850,23 @@
    "url": "https://samaritas.clearcompany.com/careers/jobs/b62f2eea-5a37-2993-907a-9ef2719cafc2"
   },
   {
+   "title": "Independent Youth Case Manager - Full Time - Kalamazoo, MI",
+   "agency": "Samaritas",
+   "employer_type": "Private",
+   "counties": [
+    "Kalamazoo",
+    "Van Buren"
+   ],
+   "city": "Kalamazoo, Portage, Comstock, Mattawan, Vicksburg",
+   "posted": "2026-11-03",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://samaritas.clearcompany.com/careers/jobs/2cbf2623-9ae9-6126-2cfe-51ab968bf37b"
+  },
+  {
    "title": "Refugee Independent Living Coach - Full Time - Lansing, MI",
    "agency": "Samaritas",
    "employer_type": "Private",
@@ -2842,38 +2885,20 @@
    "url": "https://samaritas.clearcompany.com/careers/jobs/8892bcfc-c561-7e82-2b36-65aa3e0803da"
   },
   {
-   "title": "Supervisor, Foster Care - Grand Rapids, MI",
-   "agency": "Samaritas",
+   "title": "Child Welfare Specialist - Foster Care",
+   "agency": "The Children's Center (Detroit)",
    "employer_type": "Private",
    "counties": [
-    "Kent"
+    "Wayne"
    ],
-   "city": "Grand Rapids",
-   "posted": "2026-09-28",
+   "city": "Detroit",
+   "posted": null,
    "closes": null,
    "continuous": null,
    "roles": [
-    "Program Supervisor (Adoption, Foster Care, Licensing)"
+    "Foster Care Worker"
    ],
-   "url": "https://samaritas.clearcompany.com/careers/jobs/29f7c387-51e9-f622-ff10-2a0ba9d178be"
-  },
-  {
-   "title": "Youth Independence Case Manager - Grand Rapids, MI",
-   "agency": "Samaritas",
-   "employer_type": "Private",
-   "counties": [
-    "Kent",
-    "Ottawa"
-   ],
-   "city": "Grand Rapids, Rockford, Lowell, Hudsonville, Caledonia",
-   "posted": "2026-10-30",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker",
-    "Supervised Independent Living Caseworker"
-   ],
-   "url": "https://samaritas.clearcompany.com/careers/jobs/992e99b6-4e75-290e-d8c6-a16ae9df7b7f"
+   "url": "https://secure7.saashr.com/ta/6199522.careers?ShowJob=654788937"
   },
   {
    "title": "Adoption Specialist - BA",
@@ -2908,6 +2933,22 @@
    "url": "https://secure3.entertimeonline.com/ta/6128662.careers?ShowJob=839087310"
   },
   {
+   "title": "Foster Care Supervisor",
+   "agency": "Vista Maria",
+   "employer_type": "Private",
+   "counties": [
+    "Wayne"
+   ],
+   "city": "Dearborn Heights",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://secure3.entertimeonline.com/ta/6128662.careers?ShowJob=855874368"
+  },
+  {
    "title": "Case Manager (Unaccompanied Minors Program)",
    "agency": "Wedgwood Christian Services",
    "employer_type": "Private",
@@ -2924,6 +2965,22 @@
    "url": "https://wedgwood.clearcompany.com/careers/jobs/615a864a-193e-9a4c-8806-2b2dec4cc98a"
   },
   {
+   "title": "Administrative Assistant - Foster Care",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Kentwood",
+   "posted": "2026-11-05",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Administrative-Assistant---Foster-Care_R-100266"
+  },
+  {
    "title": "Case Manager Supervisor",
    "agency": "Wellspring Lutheran Services",
    "employer_type": "Private",
@@ -2931,8 +2988,8 @@
     "Otsego"
    ],
    "city": "Gaylord",
-   "posted": "2026-11-04",
-   "closes": "2026-11-11",
+   "posted": "2026-11-13",
+   "closes": "2026-11-23",
    "continuous": null,
    "roles": [
     "Program Supervisor (Adoption, Foster Care, Licensing)"
@@ -2944,11 +3001,27 @@
    "agency": "Wellspring Lutheran Services",
    "employer_type": "Private",
    "counties": [
+    "Grand Traverse"
+   ],
+   "city": "Traverse City",
+   "posted": "2026-11-16",
+   "closes": "2026-11-25",
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Case-Manager--Exempt-_R-100224"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
     "Otsego"
    ],
    "city": "Gaylord",
-   "posted": "2026-11-05",
-   "closes": "2026-11-13",
+   "posted": "2026-11-13",
+   "closes": "2026-11-23",
    "continuous": null,
    "roles": [
     "Foster Care Worker"
@@ -2960,16 +3033,16 @@
    "agency": "Wellspring Lutheran Services",
    "employer_type": "Private",
    "counties": [
-    "Grand Traverse"
+    "Oakland"
    ],
-   "city": "Traverse City",
-   "posted": "2026-11-04",
-   "closes": "2026-11-13",
+   "city": "Bingham Farms",
+   "posted": "2026-11-11",
+   "closes": "2026-11-20",
    "continuous": null,
    "roles": [
     "Foster Care Worker"
    ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Case-Manager--Exempt-_R-100224"
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Bingham-Farms-MI/Foster-Care-Case-Manager_R-100274"
   },
   {
    "title": "Foster Care Case Manager",
@@ -2988,22 +3061,6 @@
    "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kalamazoo-MI/Foster-Care-Case-Manager_R-100096"
   },
   {
-   "title": "Foster Care Case Manager",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Kent"
-   ],
-   "city": "Kentwood",
-   "posted": "2026-09-18",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Foster-Care-Case-Manager_R-100182"
-  },
-  {
    "title": "Foster Care Licensing Worker",
    "agency": "Wellspring Lutheran Services",
    "employer_type": "Private",
@@ -3011,8 +3068,8 @@
     "Grand Traverse"
    ],
    "city": "Traverse City",
-   "posted": "2026-11-04",
-   "closes": "2026-11-13",
+   "posted": "2026-11-16",
+   "closes": "2026-11-25",
    "continuous": null,
    "roles": [
     "Foster Home Licensing/GROW Trainer"
@@ -3027,13 +3084,29 @@
     "Oakland"
    ],
    "city": "Bingham Farms",
-   "posted": "2026-11-04",
-   "closes": "2026-11-11",
+   "posted": "2026-11-11",
+   "closes": "2026-11-19",
    "continuous": null,
    "roles": [
     "Foster Home Licensing/GROW Trainer"
    ],
    "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Bingham-Farms-MI/Foster-Care-Licensing-Worker_R-100223"
+  },
+  {
+   "title": "Licensing Supervisor - Foster Care",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Kentwood",
+   "posted": "2026-11-10",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Supervisor---Foster-Care_R-100269"
   },
   {
    "title": "Foster Care Family Case Manager 50,000 a year",
@@ -3066,22 +3139,6 @@
     "Foster Care Worker"
    ],
    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/517963537913420AE48133188025F47A/jobs/1299"
-  },
-  {
-   "title": "Foster Care Services Case Manager Salary of 50,000",
-   "agency": "Wolverine Human Services",
-   "employer_type": "Private",
-   "counties": [
-    "Genesee"
-   ],
-   "city": "Flint",
-   "posted": null,
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://www.paycomonline.net/v4/ats/web.php/portal/517963537913420AE48133188025F47A/jobs/680"
   },
   {
    "title": "Foster Care Supervisor Starting 60,000",
