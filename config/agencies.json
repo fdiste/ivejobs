@@ -4,7 +4,9 @@
     "ats: which fetcher to use (see ivejobs/sources/__init__.py), or \"manual\" to only list the careers link on the site",
     "     (used when an agency has no readable job board, e.g. it posts only on Indeed).",
     "ats_ids / html: settings for that fetcher. careers_url: the public careers page shown on the site.",
-    "To test one agency: py tools/check_agency.py \"Agency Name\""
+    "To test one agency: py tools/check_agency.py \"Agency Name\"",
+    "type: \"tribal\" for tribal agencies (matched against the Tribal Agencies eligible positions); omit for private agencies.",
+    "city: optional main office city, used for postings whose board gives no location (e.g. a list of PDFs)."
   ],
   "agencies": [
     {"name": "Adoption Option", "careers_url": "https://jobs.appone.com/adoptionoptioninc", "ats": "appone", "ats_ids": {"company_slug": "adoptionoptioninc"}},
@@ -69,6 +71,33 @@
      "ats_ids": {"tenant": "wellspringlutheran", "wd": "wd503", "site": "Wellspring_Careers"}},
     {"name": "West Michigan Partnership for Children", "careers_url": "https://www.wmpc.care", "ats": "manual"},
     {"name": "Wolverine Human Services", "careers_url": "https://www.wolverinehs.org/join-our-team/careers/employment-opportunities/", "ats": "paycom",
-     "ats_ids": {"clientkey": "517963537913420AE48133188025F47A"}}
+     "ats_ids": {"clientkey": "517963537913420AE48133188025F47A"}},
+    {"name": "Bay Mills Indian Community", "type": "tribal", "city": "Brimley", "careers_url": "https://secure4.saashr.com/ta/6040066.careers?CareersSearch",
+     "ats": "ukg_ready", "ats_ids": {"host": "secure4.saashr.com", "company": "6040066"}},
+    {"name": "Grand Traverse Band of Ottawa and Chippewa Indians", "type": "tribal", "city": "Suttons Bay", "careers_url": "https://www.gtbindians.org/jobpostings.asp",
+     "ats": "applicantpro", "ats_ids": {"subdomain": "gtbindians", "domain": "applicantpool.com", "domain_id": 4407}},
+    {"name": "Hannahville Indian Community", "type": "tribal", "city": "Wilson", "careers_url": "https://hannahville.net/job-opportunities/", "ats": "html",
+     "html": {"url": "https://hannahville.net/job-opportunities/", "item": "a[rel*='attachment'][href*='/wp-content/uploads/']", "skip": "application"}},
+    {"name": "Keweenaw Bay Indian Community", "type": "tribal", "city": "Baraga", "careers_url": "https://www.kbic-nsn.gov/careers/",
+     "ats": "wp_posts", "ats_ids": {"site": "https://www.kbic-nsn.gov", "category": 5}},
+    {"name": "Lac Vieux Desert Band of Lake Superior Chippewa Indians", "type": "tribal", "city": "Watersmeet", "careers_url": "https://lvd-nsn.gov/Content/Careers.cfm", "ats": "html",
+     "html": {"url": "https://lvd-nsn.gov/Content/Careers.cfm", "item": "a[href*='/media/pdf/'], a[href*='/media/banners/']", "skip": "application"}},
+    {"name": "Little River Band of Ottawa Indians", "type": "tribal", "city": "Manistee", "careers_url": "https://lrboi-nsn.gov/employment-opportunities",
+     "ats": "bamboohr", "ats_ids": {"subdomain": "lrboi"}},
+    {"name": "Little Traverse Bay Bands of Odawa Indians", "type": "tribal", "city": "Harbor Springs",
+     "careers_url": "https://ltbbodawa-nsn.gov/departments/human-resources-department/job-opportunities/", "ats": "html",
+     "html": {"url": "https://ltbbodawa-nsn.gov/departments/human-resources-department/job-opportunities/",
+              "item": "table.tablepress tbody tr", "title": "td.column-2", "posted": "td.column-1", "closes": "td.column-3"}},
+    {"name": "Match-E-Be-Nash-She-Wish Band of Pottawatomi (Gun Lake Tribe)", "type": "tribal", "city": "Shelbyville",
+     "careers_url": "https://gunlaketribe-nsn.gov/human-resources/careers/",
+     "ats": "paycom", "ats_ids": {"host": "phx.us-west.paycomonline.net", "clientkey": "ACF66AC7D1DA96F05A4204B4441CB927"}},
+    {"name": "Nottawaseppi Huron Band of the Potawatomi", "type": "tribal", "city": "Fulton", "careers_url": "https://nhbp-nsn.gov/careers-at-nhbp/",
+     "ats": "paycor", "ats_ids": {"clientId": "8a78826058d77c4b0158df2ea92205ea", "read_details": true}},
+    {"name": "Pokagon Band of Potawatomi", "type": "tribal", "city": "Dowagiac",
+     "careers_url": "https://www.pokagonband-nsn.gov/departments/human-resources/career-opportunities/",
+     "ats": "adp", "ats_ids": {"cid": "0528a983-eff0-40d1-9539-1ae4fdee6aff"}},
+    {"name": "Saginaw Chippewa Indian Tribe", "type": "tribal", "city": "Mount Pleasant", "careers_url": "https://www.sagchip.org/careers/",
+     "ats": "ultipro", "ats_ids": {"host": "sagchip.rec.pro.ukg.net", "tenant": "SAG1008SCIT", "board_id": "3125842b-c887-4ea3-97b4-d99a01a92a53"}},
+    {"name": "Sault Ste. Marie Tribe of Chippewa Indians", "type": "tribal", "careers_url": "https://saulttribe.com/about-us/employment", "ats": "manual"}
   ]
 }

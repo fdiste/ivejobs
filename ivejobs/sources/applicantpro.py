@@ -1,4 +1,5 @@
 """ApplicantPro boards (<sub>.applicantpro.com, or white-labelled e.g. recruitpro.com)."""
+import html
 from datetime import datetime
 
 from .common import clean, get
@@ -20,7 +21,7 @@ def fetch(agency, log=print):
         until_filled = str(j.get("untilFilled")) == "1"
         jobs.append({
             "id": j["id"],
-            "title": clean(j["title"]),
+            "title": clean(html.unescape(j["title"])),  # some boards return "&amp;"
             "url": j.get("jobUrl") or f"https://{host}/jobs/{j['id']}",
             "city": j.get("city"), "state": j.get("abbreviation"),
             "location_raw": clean(j.get("jobLocation")),

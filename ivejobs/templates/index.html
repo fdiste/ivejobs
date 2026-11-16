@@ -8,7 +8,7 @@
   :root {
     --bg: #f6f7f9; --card: #fff; --text: #1d2430; --muted: #5b6575; --line: #dde1e7;
     --accent: #0b5cad; --accent-soft: #e7f0fa; --mdhhs: #6b3fa0; --mdhhs-soft: #f0e9f8;
-    --private: #0f7b5f; --private-soft: #e3f4ee; --warn: #8a5a00; --warn-soft: #fff4dc;
+    --private: #0f7b5f; --private-soft: #e3f4ee; --tribal: #9a4a12; --tribal-soft: #fbeee3; --warn: #8a5a00; --warn-soft: #fff4dc;
   }
   * { box-sizing: border-box; }
   body { margin: 0; font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
@@ -36,6 +36,7 @@
   td.title a { color: var(--accent); font-weight: 600; text-decoration: none; } td.title a:hover { text-decoration: underline; }
   .tag { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
   .tag.MDHHS { background: var(--mdhhs-soft); color: var(--mdhhs); } .tag.Private { background: var(--private-soft); color: var(--private); }
+  .tag.Tribal { background: var(--tribal-soft); color: var(--tribal); }
   .tag.cont { background: var(--accent-soft); color: var(--accent); } .tag.no { background: #eef0f3; color: var(--muted); }
   .roles { font-size: .82rem; color: var(--muted); }
   .muted { color: var(--muted); } .nowrap { white-space: nowrap; }
@@ -59,7 +60,7 @@
 <body>
 <header>
   <h1>Michigan Title IV-E Eligible Job Postings</h1>
-  <p>Open MDHHS and private agency positions that match the
+  <p>Open MDHHS, private agency, and tribal agency positions that match the
     <a href="https://michildwelfare.org/employment/" target="_blank" rel="noopener">Title IV-E Child Welfare Fellowship eligible positions list</a>.
     Last updated <strong id="updated"></strong>.</p>
 </header>
@@ -69,7 +70,7 @@
 
   <section class="filters" aria-label="Filters">
     <label class="search">Search<input id="q" type="search" placeholder="Title, agency, city, county…"></label>
-    <label>Employer type<select id="type"><option value="">All</option><option>MDHHS</option><option>Private</option></select></label>
+    <label>Employer type<select id="type"><option value="">All</option><option>MDHHS</option><option>Private</option><option>Tribal</option></select></label>
     <label>Agency<select id="agency"><option value="">All agencies</option></select></label>
     <label>County<select id="county"><option value="">All counties</option></select></label>
     <label>Eligible position<select id="role"><option value="">All eligible positions</option></select></label>
@@ -106,10 +107,10 @@
   <details id="sources">
     <summary>Employers checked</summary>
     <p class="muted">Each update checks these job boards. Agencies whose jobs can't be read automatically are listed with a link to their careers page so you can check them directly.</p>
-    <table class="src-table"><thead><tr><th>Employer</th><th>Status</th><th>Matching postings</th><th>Careers page</th></tr></thead><tbody></tbody></table>
+    <table class="src-table"><thead><tr><th>Employer</th><th>Type</th><th>Status</th><th>Matching postings</th><th>Careers page</th></tr></thead><tbody></tbody></table>
   </details>
 
-  <footer>Data from the State of Michigan NEOGOV job feed and private agency career sites. Not affiliated with MDHHS or the Michigan Title IV-E Child Welfare Fellowship.</footer>
+  <footer>Data from the State of Michigan NEOGOV job feed and private and tribal agency career sites. Not affiliated with MDHHS or the Michigan Title IV-E Child Welfare Fellowship.</footer>
 </main>
 
 <script id="data" type="application/json">__DATA__</script>
@@ -147,7 +148,7 @@
     });
     $("jobs").tBodies[0].innerHTML = rows.map(j => `<tr>
       <td class="title" data-label="Title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></td>
-      <td data-label="Employer">${esc(j.agency)}${j.employer_type === "Private" ? ' <span class="tag Private">Private agency</span>' : ""}</td>
+      <td data-label="Employer">${esc(j.agency)}${j.employer_type === "Private" ? ' <span class="tag Private">Private agency</span>' : j.employer_type === "Tribal" ? ' <span class="tag Tribal">Tribal agency</span>' : ""}</td>
       <td data-label="County">${j.counties.length ? esc(j.counties.join(", ")) : '<span class="muted">Not listed</span>'}</td>
       <td data-label="City">${j.city ? esc(j.city) : '<span class="muted">Not listed</span>'}</td>
       <td data-label="Posted" class="nowrap">${j.posted ? fmtDate(j.posted) : '<span class="muted">Not listed</span>'}</td>
@@ -156,8 +157,8 @@
       <td data-label="Eligible position" class="roles">${esc(j.roles.join("; "))}</td>
     </tr>`).join("");
     $("empty").hidden = rows.length > 0;
-    const nM = rows.filter(j => j.employer_type === "MDHHS").length;
-    $("count").textContent = `Showing ${rows.length} of ${jobs.length} postings (${nM} MDHHS, ${rows.length - nM} private agency)`;
+    const n = t => rows.filter(j => j.employer_type === t).length;
+    $("count").textContent = `Showing ${rows.length} of ${jobs.length} postings (${n("MDHHS")} MDHHS, ${n("Private")} private agency, ${n("Tribal")} tribal agency)`;
     document.querySelectorAll("#jobs th").forEach(th => th.setAttribute("aria-sort", th.dataset.key === sortKey ? (sortDir > 0 ? "ascending" : "descending") : "none"));
   }
 
@@ -173,13 +174,14 @@
   render();
 
   const el = DATA.eligible;
-  $("eligibleMeta").innerHTML = `Source: <a href="${esc(el.source)}" target="_blank" rel="noopener">${esc(el.source)}</a> · retrieved ${esc(new Date(el.fetched_at).toLocaleDateString("en-US", {dateStyle: "medium"}))}. Tribal agency positions are listed for reference; tribal job boards are not included in the postings above.`;
+  $("eligibleMeta").innerHTML = `Source: <a href="${esc(el.source)}" target="_blank" rel="noopener">${esc(el.source)}</a> · retrieved ${esc(new Date(el.fetched_at).toLocaleDateString("en-US", {dateStyle: "medium"}))}.`;
   const names = {mdhhs: "MDHHS", mdhhs_advanced: "MDHHS – Advanced level", private: "Private agencies", tribal: "Tribal agencies"};
   $("eligibleLists").innerHTML = Object.entries(el.groups).map(([k, list]) =>
     `<h3>${names[k] || esc(k)}</h3><ul>${list.map(p => `<li>${esc(p.title)}${p.detail ? ` <span class="muted">– ${esc(p.detail)}</span>` : ""}</li>`).join("")}</ul>`).join("");
 
   document.querySelector("#sources tbody").innerHTML = DATA.sources.map(s => `<tr>
     <td>${esc(s.name)}</td>
+    <td>${s.type === "Tribal" ? '<span class="tag Tribal">Tribal</span>' : s.type === "Private" ? '<span class="tag Private">Private</span>' : '<span class="tag MDHHS">MDHHS</span>'}</td>
     <td>${s.status === "ok" ? "Checked automatically" : s.status === "manual" ? '<span class="muted">Check careers page directly</span>' : `<span class="err" title="${esc(s.error || "")}">Couldn't read this update</span>`}</td>
     <td>${s.status === "ok" ? s.matched : ""}</td>
     <td>${s.careers_url ? `<a href="${esc(s.careers_url)}" target="_blank" rel="noopener">Careers</a>` : ""}</td></tr>`).join("");

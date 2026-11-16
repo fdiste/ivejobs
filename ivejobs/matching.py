@@ -31,11 +31,14 @@ class Matcher:
         cfg = json.loads((CONFIG_DIR / "match_rules.json").read_text(encoding="utf-8"))
         self.mdhhs_departments = cfg["mdhhs_departments"]
         self.global_exclude = _compile(cfg["global_exclude"])
-        self.rules = {"mdhhs": [], "private": []}
+        self.rules = {"mdhhs": [], "private": [], "tribal": []}
         groups = eligible["groups"]
-        for group_key, target in (("mdhhs", "mdhhs"), ("mdhhs_advanced", "mdhhs"), ("private", "private")):
+        for group_key, target in (("mdhhs", "mdhhs"), ("mdhhs_advanced", "mdhhs"), ("private", "private"), ("tribal", "tribal")):
             for p in groups.get(group_key, []):
-                rule = cfg["rules"].get(position_key(p))
+                # Tribal positions share titles with other groups (e.g. "foster home licensing" is also an MDHHS
+                # position), so a "tribal: <position>" rule takes precedence for tribal agencies.
+                rule = cfg["rules"].get(f"tribal: {position_key(p)}") if target == "tribal" else None
+                rule = rule or cfg["rules"].get(position_key(p))
                 if rule is None:
                     rule = _auto_rule(p)
                     log(f"WARNING: no match rule for eligible position {position_label(p)!r}; "
@@ -58,7 +61,7 @@ class Matcher:
         if any(p.search(title) for p in self.global_exclude):
             return []
         text = title + " " + (job.get("description") or "")
-        rules = self.rules["mdhhs" if job["employer_type"] == "MDHHS" else "private"]
+        rules = self.rules[{"MDHHS": "mdhhs", "Tribal": "tribal"}.get(job["employer_type"], "private")]
         hits = []
         for r in rules:
             if r["classspec"] and not r["classspec"].search(job.get("classspec") or ""):

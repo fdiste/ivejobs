@@ -11,6 +11,8 @@ Config keys (in config/agencies.json, under "html"):
   location_label: optional; read "Location: ..." text from the item's following content
   require_body: optional regex; keep an item only if the text after it matches (e.g. "we ARE currently seeking")
   browser_ua: optional true; send a full browser User-Agent (some sites block the default one)
+  posted / closes: optional CSS selectors inside the item for the posted / closing date (e.g. table cells).
+              A closing date reading "until filled" marks the posting continuous.
 """
 import re
 
@@ -18,7 +20,7 @@ from bs4 import BeautifulSoup
 
 from urllib.parse import urljoin
 
-from .common import BROWSER_UA, city_state, clean, continuous_from_text, get
+from .common import BROWSER_UA, CONTINUOUS_RE, city_state, clean, continuous_from_text, get, iso_date
 
 
 def _following_text(el, item_ids, limit=1500):
@@ -79,16 +81,24 @@ def fetch(agency, log=print):
                           r"(?=,|\s+(?:MI|Michigan)\b|\s+[A-Z][a-z]+(?: [A-Z][a-z]+)?\s*:|\s*$)", body)
             loc = clean(m.group(1)) if m else ""
         city, state = city_state(loc) if loc else (None, None)
+        posted, closes, continuous = _cell(item, cfg.get("posted")), _cell(item, cfg.get("closes")), continuous_from_text(body)
+        if closes and CONTINUOUS_RE.search(closes):
+            continuous = True
         jobs.append({
             "id": f"{link}|{title}",
             "title": title, "url": link,
             "city": city, "state": state, "location_raw": loc,
             "county_hint": title,
-            "posted": None, "closes": None,
-            "continuous": continuous_from_text(body),
+            "posted": iso_date(posted), "closes": iso_date(closes),
+            "continuous": continuous,
             "description": body[:1000],
         })
     return jobs
+
+
+def _cell(item, selector):
+    el = item.select_one(selector) if selector else None
+    return clean(el.get_text(" ")) if el else None
 
 
 def _is_after(el, marker):

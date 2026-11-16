@@ -9,7 +9,8 @@
     "  exclude:   if any matches the posting title, the posting is skipped for this position.",
     "global_exclude patterns are checked against the posting title for every position.",
     "If the site adds a position that has no rule here, a rule is generated from the title words and a warning is logged.",
-    "  or:        optional list of alternative {title_any/text_any/classspec} combinations; any one matching is enough."
+    "  or:        optional list of alternative {title_any/text_any/classspec} combinations; any one matching is enough.",
+    "Keys starting with \"tribal: \" apply only to tribal agencies and take precedence over the plain key (tribal titles differ, e.g. ICWA worker, and tribes also post gaming-licensing jobs)."
   ],
   "global_exclude": [
     "\\bintern(ship)?\\b",
@@ -307,6 +308,176 @@
             "licensing",
             "child welfare",
             "permanency"
+          ]
+        }
+      ]
+    },
+    "tribal: foster care worker": {
+      "title_any": [
+        "foster care",
+        "child welfare",
+        "\\bICWA\\b",
+        "indian child welfare",
+        "permanency (case|worker|specialist|planner)",
+        "\\b(foster|kinship)\\b.*\\b(case ?worker|case manager|specialist|worker)\\b",
+        "children'?s services (worker|specialist|case ?worker|case manager)",
+        "\\bcase ?(worker|manager)\\b.*\\b(foster|child welfare|permanency|kinship|ICWA)\\b"
+      ],
+      "exclude": [
+        "supervisor",
+        "(?<!case )\\bmanager\\b",
+        "director",
+        "\\blead\\b",
+        "licens",
+        "recruit",
+        "therapist",
+        "attorney",
+        "court"
+      ],
+      "or": [
+        {
+          "title_any": [
+            "\\bcase ?(manager|worker)\\b",
+            "\\b(family|social|children'?s) services (worker|specialist|case ?worker)\\b",
+            "\\bfamily (support )?worker\\b"
+          ],
+          "text_any": [
+            "foster care",
+            "child welfare",
+            "\\bICWA\\b",
+            "indian child welfare",
+            "permanency",
+            "\\bkinship\\b",
+            "out-of-home",
+            "child placement"
+          ]
+        }
+      ]
+    },
+    "tribal: adoption worker": {
+      "title_any": [
+        "adoption",
+        "adoptive"
+      ],
+      "exclude": [
+        "supervisor",
+        "(?<!case )\\bmanager\\b",
+        "director",
+        "\\blead\\b",
+        "attorney"
+      ]
+    },
+    "tribal: supervised independent living caseworker": {
+      "title_any": [
+        "independent living",
+        "\\bSIL\\b",
+        "transition(al)? (age )?youth (case|worker|specialist)",
+        "youth independence"
+      ],
+      "exclude": [
+        "supervisor",
+        "director"
+      ]
+    },
+    "tribal: child protective services worker": {
+      "title_any": [
+        "\\bCPS\\b",
+        "child(ren'?s)? protecti(ve|on)",
+        "protective services (worker|specialist|investigator)",
+        "\\b(child|ICWA) (abuse|neglect)? ?investigat",
+        "\\binvestigat.*\\b(child|ICWA)\\b",
+        "\\bchild welfare intake\\b"
+      ],
+      "exclude": [
+        "supervisor",
+        "(?<!case )\\bmanager\\b",
+        "director",
+        "\\blead\\b",
+        "adult",
+        "\\bAPS\\b",
+        "police",
+        "officer",
+        "attorney",
+        "prosecutor"
+      ],
+      "or": [
+        {
+          "title_any": [
+            "\\bintake (worker|specialist|case ?worker)\\b",
+            "\\b(family|social) services (worker|specialist|case ?worker)\\b"
+          ],
+          "text_any": [
+            "protective services",
+            "\\bCPS\\b",
+            "abuse (and|or) neglect",
+            "child abuse",
+            "neglect investigation"
+          ]
+        }
+      ]
+    },
+    "tribal: foster home licensing": {
+      "title_any": [
+        "foster (home|care|parent|family) licens",
+        "licens\\w* .*\\bfoster\\b",
+        "home stud(y|ies)",
+        "foster (home|parent|family) (recruit|developer|specialist|coordinator|trainer|support)",
+        "resource (family|home|parent) (worker|specialist|recruiter|coordinator)"
+      ],
+      "exclude": [
+        "supervisor",
+        "director",
+        "gaming",
+        "licensed (practical|professional|master|social)"
+      ],
+      "or": [
+        {
+          "title_any": [
+            "licens(ing|e|ure) (worker|specialist|case ?worker|coordinator)",
+            "\\blicensing\\b"
+          ],
+          "text_any": [
+            "foster (home|care|parent|famil)",
+            "child placing",
+            "relative (home|placement)",
+            "home study"
+          ],
+          "exclude": [
+            "gaming",
+            "casino",
+            "manager",
+            "supervisor",
+            "director"
+          ]
+        }
+      ]
+    },
+    "tribal: program supervisor adoption, foster care, licensing, cps": {
+      "title_any": [
+        "(supervisor|program manager|program coordinator).*(foster|adoption|child welfare|\\bICWA\\b|permanency|protective|\\bCPS\\b|child and family|children'?s services|kinship)",
+        "(foster|adoption|child welfare|\\bICWA\\b|permanency|protective|\\bCPS\\b|child and family|children'?s services|kinship).*(supervisor|program manager)",
+        "foster (home |care )?licens.*(supervisor|manager)"
+      ],
+      "exclude": [
+        "director",
+        "residential",
+        "gaming",
+        "head start",
+        "early"
+      ],
+      "or": [
+        {
+          "title_any": [
+            "\\b(case ?(manager|work(er)?)|program|team|social services|family services) (supervisor|lead|manager)\\b",
+            "\\bsupervisor\\b.*\\bcase\\b"
+          ],
+          "text_any": [
+            "foster care",
+            "adoption",
+            "child welfare",
+            "\\bICWA\\b",
+            "protective services",
+            "\\bCPS\\b"
           ]
         }
       ]

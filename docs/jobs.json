@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-16T22:09:28+00:00",
+ "generated_at": "2026-11-16T22:43:03+00:00",
  "eligible": {
   "source": "https://michildwelfare.org/employment/",
-  "fetched_at": "2026-11-16T22:08:13+00:00",
+  "fetched_at": "2026-11-16T22:41:55+00:00",
   "groups": {
    "mdhhs": [
     {
@@ -129,267 +129,395 @@
  "sources": [
   {
    "name": "MDHHS",
+   "type": "MDHHS",
    "status": "ok",
    "careers_url": "https://www.governmentjobs.com/careers/michigan/mdhhs",
    "matched": 76
   },
   {
    "name": "Adoption Option",
+   "type": "Private",
    "careers_url": "https://jobs.appone.com/adoptionoptioninc",
    "status": "ok",
    "matched": 3
   },
   {
    "name": "Bethany Christian Services",
+   "type": "Private",
    "careers_url": "https://bethany.org/about-us/careers",
    "status": "ok",
    "matched": 16
   },
   {
    "name": "Catholic Charities of Ingham, Eaton & Clinton (St. Vincent)",
+   "type": "Private",
    "careers_url": "https://catholiccharitiesiec.org/careers/",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Catholic Charities of Jackson, Lenawee & Hillsdale",
+   "type": "Private",
    "careers_url": "https://catholiccharitiesjlhc.org/careers/",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Catholic Charities of Shiawassee & Genesee Counties",
+   "type": "Private",
    "careers_url": "https://catholiccharitiesflint.org/jobs",
    "status": "ok",
    "matched": 0
   },
   {
    "name": "Catholic Charities of Southeast Michigan",
+   "type": "Private",
    "careers_url": "https://www.ccsem.org/job-postings",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Catholic Charities West Michigan",
+   "type": "Private",
    "careers_url": "https://ccwestmi.org/careers/",
    "status": "ok",
    "matched": 9
   },
   {
    "name": "Catholic Human Services",
+   "type": "Private",
    "careers_url": "https://www.catholichumanservices.org/careers",
    "status": "ok",
    "matched": 0
   },
   {
    "name": "Catholic Social Services of the Upper Peninsula",
+   "type": "Private",
    "careers_url": "https://cssup.org/childwelfare",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Child & Family Services of Northwestern Michigan",
+   "type": "Private",
    "careers_url": "https://www.cfsnwmi.org/careers",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Child & Family Services of the Upper Peninsula",
+   "type": "Private",
    "careers_url": "https://cfsup.org/employment-opportunities/",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Child and Family Charities (Lansing)",
+   "type": "Private",
    "careers_url": "https://childandfamily.org/careers/",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Christ Child House",
+   "type": "Private",
    "careers_url": "https://christchildhouse.applicantpool.com/jobs/",
    "status": "ok",
    "matched": 0
   },
   {
    "name": "CityLinC Ministries",
+   "type": "Private",
    "careers_url": "https://www.citylinc.org/",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "D.A. Blodgett-St. John's",
+   "type": "Private",
    "careers_url": "https://dabsj.org/careers/",
    "status": "ok",
    "matched": 3
   },
   {
    "name": "Eagle Village",
+   "type": "Private",
    "careers_url": "https://eaglevillage.org/careers/",
    "status": "ok",
    "matched": 0
   },
   {
    "name": "Ennis Center for Children",
+   "type": "Private",
    "careers_url": "https://www.enniscenter.org/employment",
    "status": "ok",
    "matched": 16
   },
   {
    "name": "Family & Children Services (Kalamazoo)",
+   "type": "Private",
    "careers_url": "https://fcsource.org/careers/",
    "status": "ok",
    "matched": 2
   },
   {
    "name": "Family Service & Children's Aid (Jackson)",
+   "type": "Private",
    "careers_url": "https://strong-families.org/employment-opportunities/",
    "status": "ok",
    "matched": 0
   },
   {
    "name": "Federation of Youth Services",
+   "type": "Private",
    "careers_url": "https://www.federationofyouthservices.org/",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Forever Families",
+   "type": "Private",
    "careers_url": "https://www.forever-families.org/careers/",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Fostering Futures",
+   "type": "Private",
    "careers_url": "http://www.ffkids.org/career",
    "status": "ok",
    "matched": 2
   },
   {
    "name": "Fostering Solutions",
+   "type": "Private",
    "careers_url": "http://www.fosteringsolutions.org/",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Genacross Lutheran Services",
+   "type": "Private",
    "careers_url": "https://genacrosslutheranservices.org/careers/opportunities/",
    "status": "ok",
    "matched": 0
   },
   {
    "name": "Guiding Harbor",
+   "type": "Private",
    "careers_url": "https://recruiting.paylocity.com/Recruiting/Jobs/All/81a0676b-18a4-4f7c-8fac-f6149b1bce02/Guiding-Harbor",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Hands Across the Water",
+   "type": "Private",
    "careers_url": "https://www.hatw.org/employment-opportunities",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Holy Cross Services",
+   "type": "Private",
    "careers_url": "https://holycrossservices.org/careers/",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Homes for Black Children",
+   "type": "Private",
    "careers_url": "https://homesforblackchildren.com",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Judson Center",
+   "type": "Private",
    "careers_url": "https://judsoncenter.org/careers-and-jobs/open-positions/",
    "status": "ok",
    "matched": 6
   },
   {
    "name": "Methodist Children's Home Society",
+   "type": "Private",
    "careers_url": "https://mchsmi.org/careers/",
    "status": "ok",
    "matched": 4
   },
   {
    "name": "New Light Child and Family Institute",
+   "type": "Private",
    "careers_url": "https://www.newlightchildfamily.com/join-our-team",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Northeast Michigan Family Resource Center",
+   "type": "Private",
    "careers_url": "https://nemifrc.org",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Orchards Children's Services",
+   "type": "Private",
    "careers_url": "https://orchards.org/careers/",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Samaritas",
+   "type": "Private",
    "careers_url": "https://samaritas.org/apply-now/",
    "status": "ok",
    "matched": 5
   },
   {
    "name": "Spaulding for Children",
+   "type": "Private",
    "careers_url": "https://spaulding.org/about/job-openings/",
    "status": "ok",
    "matched": 0
   },
   {
    "name": "The Children's Center (Detroit)",
+   "type": "Private",
    "careers_url": "https://www.thechildrenscenter.com/careers/",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "U.P. Kids",
+   "type": "Private",
    "careers_url": "https://hr.upkids.com/jobs",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Upper Peninsula Family Solutions",
+   "type": "Private",
    "careers_url": "https://upfs.org/careers/",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Vista Maria",
+   "type": "Private",
    "careers_url": "https://www.vistamaria.org/careers/",
    "status": "ok",
    "matched": 3
   },
   {
    "name": "Wedgwood Christian Services",
+   "type": "Private",
    "careers_url": "https://www.wedgwood.org/join-our-team/",
    "status": "ok",
    "matched": 1
   },
   {
    "name": "Wellspring Lutheran Services",
+   "type": "Private",
    "careers_url": "https://wellspringlutheran.com/careers",
    "status": "ok",
    "matched": 9
   },
   {
    "name": "West Michigan Partnership for Children",
+   "type": "Private",
    "careers_url": "https://www.wmpc.care",
    "status": "manual",
    "matched": 0
   },
   {
    "name": "Wolverine Human Services",
+   "type": "Private",
    "careers_url": "https://www.wolverinehs.org/join-our-team/careers/employment-opportunities/",
    "status": "ok",
    "matched": 4
+  },
+  {
+   "name": "Bay Mills Indian Community",
+   "type": "Tribal",
+   "careers_url": "https://secure4.saashr.com/ta/6040066.careers?CareersSearch",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Grand Traverse Band of Ottawa and Chippewa Indians",
+   "type": "Tribal",
+   "careers_url": "https://www.gtbindians.org/jobpostings.asp",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Hannahville Indian Community",
+   "type": "Tribal",
+   "careers_url": "https://hannahville.net/job-opportunities/",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Keweenaw Bay Indian Community",
+   "type": "Tribal",
+   "careers_url": "https://www.kbic-nsn.gov/careers/",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Lac Vieux Desert Band of Lake Superior Chippewa Indians",
+   "type": "Tribal",
+   "careers_url": "https://lvd-nsn.gov/Content/Careers.cfm",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Little River Band of Ottawa Indians",
+   "type": "Tribal",
+   "careers_url": "https://lrboi-nsn.gov/employment-opportunities",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Little Traverse Bay Bands of Odawa Indians",
+   "type": "Tribal",
+   "careers_url": "https://ltbbodawa-nsn.gov/departments/human-resources-department/job-opportunities/",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Match-E-Be-Nash-She-Wish Band of Pottawatomi (Gun Lake Tribe)",
+   "type": "Tribal",
+   "careers_url": "https://gunlaketribe-nsn.gov/human-resources/careers/",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Nottawaseppi Huron Band of the Potawatomi",
+   "type": "Tribal",
+   "careers_url": "https://nhbp-nsn.gov/careers-at-nhbp/",
+   "status": "ok",
+   "matched": 1
+  },
+  {
+   "name": "Pokagon Band of Potawatomi",
+   "type": "Tribal",
+   "careers_url": "https://www.pokagonband-nsn.gov/departments/human-resources/career-opportunities/",
+   "status": "ok",
+   "matched": 0
+  },
+  {
+   "name": "Saginaw Chippewa Indian Tribe",
+   "type": "Tribal",
+   "careers_url": "https://www.sagchip.org/careers/",
+   "status": "ok",
+   "matched": 1
+  },
+  {
+   "name": "Sault Ste. Marie Tribe of Chippewa Indians",
+   "type": "Tribal",
+   "careers_url": "https://saulttribe.com/about-us/employment",
+   "status": "manual",
+   "matched": 0
   }
  ],
  "jobs": [
@@ -3171,6 +3299,39 @@
     "Program Supervisor (Adoption, Foster Care, Licensing)"
    ],
    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/517963537913420AE48133188025F47A/jobs/3085"
+  },
+  {
+   "title": "Senior Social Services Case Manager",
+   "agency": "Nottawaseppi Huron Band of the Potawatomi",
+   "employer_type": "Tribal",
+   "counties": [
+    "Kalamazoo",
+    "Kent"
+   ],
+   "city": "Fulton, Grand Rapids",
+   "posted": null,
+   "closes": "2026-11-16",
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a78826058d77c4b0158df2ea92205ea&id=8a7887a8a18473d601a19cc82ba06234&source=&lang=en"
+  },
+  {
+   "title": "TO Anishnaabeg Child and Family Services (ACFS) Supervisor",
+   "agency": "Saginaw Chippewa Indian Tribe",
+   "employer_type": "Tribal",
+   "counties": [
+    "Isabella"
+   ],
+   "city": "Mt Pleasant",
+   "posted": "2026-10-02",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing, CPS)"
+   ],
+   "url": "https://sagchip.rec.pro.ukg.net/SAG1008SCIT/JobBoard/3125842b-c887-4ea3-97b4-d99a01a92a53/OpportunityDetail?opportunityId=8679c554-1ba6-4706-9c5c-67d798043d2d"
   }
  ]
 }
