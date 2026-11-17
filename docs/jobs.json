@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T23:41:50+00:00",
+ "generated_at": "2026-11-17T19:55:50+00:00",
  "eligible": {
   "source": "https://michildwelfare.org/employment/",
   "fetched_at": "2026-11-16T23:40:14+00:00",
@@ -146,7 +146,7 @@
    "type": "Private",
    "careers_url": "https://bethany.org/about-us/careers",
    "status": "ok",
-   "matched": 16
+   "matched": 17
   },
   {
    "name": "Catholic Charities of Ingham, Eaton & Clinton (St. Vincent)",
@@ -181,7 +181,7 @@
    "type": "Private",
    "careers_url": "https://ccwestmi.org/careers/",
    "status": "ok",
-   "matched": 9
+   "matched": 10
   },
   {
    "name": "Catholic Human Services",
@@ -202,7 +202,7 @@
    "type": "Private",
    "careers_url": "https://www.cfsnwmi.org/careers",
    "status": "ok",
-   "matched": 1
+   "matched": 0
   },
   {
    "name": "Child & Family Services of the Upper Peninsula",
@@ -335,7 +335,7 @@
    "type": "Private",
    "careers_url": "https://judsoncenter.org/careers-and-jobs/open-positions/",
    "status": "ok",
-   "matched": 6
+   "matched": 7
   },
   {
    "name": "Methodist Children's Home Society",
@@ -419,7 +419,7 @@
    "type": "Private",
    "careers_url": "https://wellspringlutheran.com/careers",
    "status": "ok",
-   "matched": 9
+   "matched": 8
   },
   {
    "name": "West Michigan Partnership for Children",
@@ -546,7 +546,7 @@
     "Allegan"
    ],
    "city": "Allegan",
-   "posted": "2026-10-27",
+   "posted": "2026-11-17",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -615,7 +615,7 @@
     "Barry"
    ],
    "city": "Hastings",
-   "posted": "2026-09-29",
+   "posted": "2026-11-17",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -721,7 +721,7 @@
     "Kalkaska"
    ],
    "city": "Traverse City",
-   "posted": "2026-11-09",
+   "posted": "2026-11-17",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -789,7 +789,7 @@
     "Cheboygan"
    ],
    "city": "Cheboygan",
-   "posted": "2026-11-09",
+   "posted": "2026-11-17",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1349,7 +1349,7 @@
     "Presque Isle"
    ],
    "city": "Rogers City",
-   "posted": "2026-11-09",
+   "posted": "2026-11-17",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1890,6 +1890,22 @@
     "Kent"
    ],
    "city": "Grand Rapids",
+   "posted": "2026-11-17",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=63062c87-f955-46a0-bd71-5aa89c8cba9c"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Grand Rapids",
    "posted": "2026-11-09",
    "closes": null,
    "continuous": null,
@@ -2082,7 +2098,7 @@
     "Kalamazoo"
    ],
    "city": "Kalamazoo",
-   "posted": "2026-11-03",
+   "posted": "2026-11-17",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2123,6 +2139,22 @@
     "Unaccompanied Refugee Minor Caseworker"
    ],
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=ea615bd4-28bf-425c-91c3-503a7c208653"
+  },
+  {
+   "title": "Adoption Specialist",
+   "agency": "Catholic Charities West Michigan",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Grand Rapids",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Adoption Worker"
+   ],
+   "url": "https://careers-ccwestmi.icims.com/jobs/1735/adoption-specialist/job"
   },
   {
    "title": "Foster Care Specialist",
@@ -2313,22 +2345,6 @@
     "Foster Care Worker"
    ],
    "url": "https://www.ccsem.org/job-postings#case-manager-foster-care"
-  },
-  {
-   "title": "Foster Care Specialist",
-   "agency": "Child & Family Services of Northwestern Michigan",
-   "employer_type": "Private",
-   "counties": [
-    "Grand Traverse"
-   ],
-   "city": "Traverse City",
-   "posted": null,
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://secure.entertimeonline.com/ta/ChildFamily.careers?ShowJob=906117650"
   },
   {
    "title": "Child Welfare Specialist",
@@ -2789,6 +2805,22 @@
    "agency": "Judson Center",
    "employer_type": "Private",
    "counties": [
+    "Oakland"
+   ],
+   "city": "Royal Oak",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Home Licensing/GROW Trainer"
+   ],
+   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a78826755c3a6740155cbced31805fb&id=8a78879ea1ccde3201a1ea19fed83822&source=&lang=en"
+  },
+  {
+   "title": "Foster Care Licensing Specialist",
+   "agency": "Judson Center",
+   "employer_type": "Private",
+   "counties": [
     "Wayne"
    ],
    "city": "Dearborn",
@@ -3091,22 +3123,6 @@
     "Unaccompanied Refugee Minor Caseworker"
    ],
    "url": "https://wedgwood.clearcompany.com/careers/jobs/615a864a-193e-9a4c-8806-2b2dec4cc98a"
-  },
-  {
-   "title": "Administrative Assistant - Foster Care",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Kent"
-   ],
-   "city": "Kentwood",
-   "posted": "2026-11-05",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Administrative-Assistant---Foster-Care_R-100266"
   },
   {
    "title": "Case Manager Supervisor",
