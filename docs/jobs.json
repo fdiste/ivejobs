@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:55:50+00:00",
+ "generated_at": "2026-11-18T19:26:12+00:00",
  "eligible": {
   "source": "https://michildwelfare.org/employment/",
   "fetched_at": "2026-11-16T23:40:14+00:00",
@@ -132,7 +132,7 @@
    "type": "MDHHS",
    "status": "ok",
    "careers_url": "https://www.governmentjobs.com/careers/michigan/mdhhs",
-   "matched": 76
+   "matched": 75
   },
   {
    "name": "Adoption Option",
@@ -146,7 +146,7 @@
    "type": "Private",
    "careers_url": "https://bethany.org/about-us/careers",
    "status": "ok",
-   "matched": 17
+   "matched": 16
   },
   {
    "name": "Catholic Charities of Ingham, Eaton & Clinton (St. Vincent)",
@@ -370,7 +370,7 @@
    "type": "Private",
    "careers_url": "https://samaritas.org/apply-now/",
    "status": "ok",
-   "matched": 5
+   "matched": 4
   },
   {
    "name": "Spaulding for Children",
@@ -418,8 +418,9 @@
    "name": "Wellspring Lutheran Services",
    "type": "Private",
    "careers_url": "https://wellspringlutheran.com/careers",
-   "status": "ok",
-   "matched": 8
+   "status": "error",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://wellspringlutheran.wd503.myworkdayjobs.com/wday/cxs/wellspringlutheran/Wellspring_Careers/jobs",
+   "matched": 0
   },
   {
    "name": "West Michigan Partnership for Children",
@@ -1315,7 +1316,7 @@
     "Oscoda"
    ],
    "city": null,
-   "posted": "2026-11-13",
+   "posted": "2026-11-17",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1533,22 +1534,6 @@
     "Services Specialist Assistant 8-10 (Family Teams Support)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5239688-0"
-  },
-  {
-   "title": "Services Specialist Assistant 8-E10 (Family Team Support) - Kalamazoo County",
-   "agency": "MDHHS",
-   "employer_type": "MDHHS",
-   "counties": [
-    "Kalamazoo"
-   ],
-   "city": "Kalamazoo",
-   "posted": "2026-11-10",
-   "closes": "2026-11-17",
-   "continuous": false,
-   "roles": [
-    "Services Specialist Assistant 8-10 (Family Teams Support)"
-   ],
-   "url": "https://www.governmentjobs.com/careers/michigan/jobs/5240955-0"
   },
   {
    "title": "Services Specialist Assistant 8-E10 (Family Team Support) - St. Joseph",
@@ -1873,7 +1858,7 @@
     "Oakland"
    ],
    "city": "Southfield",
-   "posted": "2026-10-22",
+   "posted": "2026-11-18",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -1881,6 +1866,102 @@
     "Adoption Worker"
    ],
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=f0aaeade-65c4-45d7-9f2c-02b65ea5b46b"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Muskegon"
+   ],
+   "city": "Muskegon",
+   "posted": "2026-11-18",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=ad368a34-922c-43d2-9747-b9c31a81a83d"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Grand Traverse"
+   ],
+   "city": "Traverse City",
+   "posted": "2026-11-18",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=32dde7e8-73ec-4c66-9428-11f68308b560"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Ingham"
+   ],
+   "city": "East Lansing",
+   "posted": "2026-11-18",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=6eb2b9f0-3c48-40fe-83de-4a6f4c4091d3"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Oakland"
+   ],
+   "city": "Southfield",
+   "posted": "2026-11-18",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=d5f8394e-827c-4853-b388-38b0ddeaffe3"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Wayne"
+   ],
+   "city": "Detroit",
+   "posted": "2026-11-18",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=0a232947-6fc4-4058-9b89-6bf3eb0d956e"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Genesee"
+   ],
+   "city": "Flint",
+   "posted": "2026-11-18",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=442fd918-8f54-41ba-a0b0-747c43ff6d46"
   },
   {
    "title": "Foster Care Case Manager",
@@ -1903,22 +1984,6 @@
    "agency": "Bethany Christian Services",
    "employer_type": "Private",
    "counties": [
-    "Kent"
-   ],
-   "city": "Grand Rapids",
-   "posted": "2026-11-09",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=4f420484-e66f-49be-b57b-24e4a295c5c6"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
     "Kalamazoo"
    ],
    "city": "Kalamazoo",
@@ -1931,100 +1996,20 @@
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=06778f17-f618-4b9c-8990-dcd5905ba6ee"
   },
   {
-   "title": "Foster Care Case Manager",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Muskegon"
-   ],
-   "city": "Muskegon",
-   "posted": "2026-10-13",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=ad368a34-922c-43d2-9747-b9c31a81a83d"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Grand Traverse"
-   ],
-   "city": "Traverse City",
-   "posted": "2026-10-13",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=32dde7e8-73ec-4c66-9428-11f68308b560"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Ingham"
-   ],
-   "city": "East Lansing",
-   "posted": "2026-10-13",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=6eb2b9f0-3c48-40fe-83de-4a6f4c4091d3"
-  },
-  {
-   "title": "Foster Care Case Manager",
+   "title": "Foster Care Clerk",
    "agency": "Bethany Christian Services",
    "employer_type": "Private",
    "counties": [
     "Oakland"
    ],
    "city": "Southfield",
-   "posted": "2026-10-13",
+   "posted": "2026-11-18",
    "closes": null,
    "continuous": null,
    "roles": [
     "Foster Care Worker"
    ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=d5f8394e-827c-4853-b388-38b0ddeaffe3"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Wayne"
-   ],
-   "city": "Detroit",
-   "posted": "2026-10-13",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=0a232947-6fc4-4058-9b89-6bf3eb0d956e"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Genesee"
-   ],
-   "city": "Flint",
-   "posted": "2026-10-13",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=442fd918-8f54-41ba-a0b0-747c43ff6d46"
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=94cc9fcf-d2c1-48c6-ab5f-5151aaa9abd0"
   },
   {
    "title": "Foster Care Clerk",
@@ -2043,22 +2028,6 @@
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=cd129381-f7a4-434d-bcd9-be8c60b78f83"
   },
   {
-   "title": "Foster Care Clerk",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Oakland"
-   ],
-   "city": "Southfield",
-   "posted": "2026-11-10",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=94cc9fcf-d2c1-48c6-ab5f-5151aaa9abd0"
-  },
-  {
    "title": "Foster Care Licensing Specialist",
    "agency": "Bethany Christian Services",
    "employer_type": "Private",
@@ -2066,7 +2035,7 @@
     "Muskegon"
    ],
    "city": "Muskegon",
-   "posted": "2026-11-16",
+   "posted": "2026-11-18",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2082,7 +2051,7 @@
     "Oakland"
    ],
    "city": "Southfield",
-   "posted": "2026-10-13",
+   "posted": "2026-11-18",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2400,7 +2369,7 @@
     "Kent"
    ],
    "city": "Grand Rapids",
-   "posted": "2026-11-11",
+   "posted": "2026-11-18",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2977,22 +2946,6 @@
    "url": "https://samaritas.clearcompany.com/careers/jobs/7d855dec-7577-e6de-363e-175f7154d7d7"
   },
   {
-   "title": "Foster Care Case Manager - Full Time - Grand Rapids, MI",
-   "agency": "Samaritas",
-   "employer_type": "Private",
-   "counties": [
-    "Kent"
-   ],
-   "city": "Grand Rapids",
-   "posted": "2026-11-03",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://samaritas.clearcompany.com/careers/jobs/a8b4c395-1950-8d9f-a25a-40b754850ba0"
-  },
-  {
    "title": "Foster Care Case Manager - Team 3",
    "agency": "Samaritas",
    "employer_type": "Private",
@@ -3123,134 +3076,6 @@
     "Unaccompanied Refugee Minor Caseworker"
    ],
    "url": "https://wedgwood.clearcompany.com/careers/jobs/615a864a-193e-9a4c-8806-2b2dec4cc98a"
-  },
-  {
-   "title": "Case Manager Supervisor",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Otsego"
-   ],
-   "city": "Gaylord",
-   "posted": "2026-11-13",
-   "closes": "2026-11-23",
-   "continuous": null,
-   "roles": [
-    "Program Supervisor (Adoption, Foster Care, Licensing)"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Gaylord-MI/Case-Manager-Supervisor_R-100240"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Grand Traverse"
-   ],
-   "city": "Traverse City",
-   "posted": "2026-11-16",
-   "closes": "2026-11-25",
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Case-Manager--Exempt-_R-100224"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Otsego"
-   ],
-   "city": "Gaylord",
-   "posted": "2026-11-13",
-   "closes": "2026-11-23",
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Gaylord-MI/Foster-Care-Case-Manager_R-100079"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Oakland"
-   ],
-   "city": "Bingham Farms",
-   "posted": "2026-11-11",
-   "closes": "2026-11-20",
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Bingham-Farms-MI/Foster-Care-Case-Manager_R-100274"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Kalamazoo"
-   ],
-   "city": "Kalamazoo",
-   "posted": "2026-09-25",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kalamazoo-MI/Foster-Care-Case-Manager_R-100096"
-  },
-  {
-   "title": "Foster Care Licensing Worker",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Grand Traverse"
-   ],
-   "city": "Traverse City",
-   "posted": "2026-11-16",
-   "closes": "2026-11-25",
-   "continuous": null,
-   "roles": [
-    "Foster Home Licensing/GROW Trainer"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Licensing-Worker_R-100184"
-  },
-  {
-   "title": "Foster Care Licensing Worker",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Oakland"
-   ],
-   "city": "Bingham Farms",
-   "posted": "2026-11-11",
-   "closes": "2026-11-19",
-   "continuous": null,
-   "roles": [
-    "Foster Home Licensing/GROW Trainer"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Bingham-Farms-MI/Foster-Care-Licensing-Worker_R-100223"
-  },
-  {
-   "title": "Licensing Supervisor - Foster Care",
-   "agency": "Wellspring Lutheran Services",
-   "employer_type": "Private",
-   "counties": [
-    "Kent"
-   ],
-   "city": "Kentwood",
-   "posted": "2026-11-10",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Program Supervisor (Adoption, Foster Care, Licensing)"
-   ],
-   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Supervisor---Foster-Care_R-100269"
   },
   {
    "title": "Foster Care Family Case Manager 50,000 a year",
