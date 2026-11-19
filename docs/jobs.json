@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T19:26:12+00:00",
+ "generated_at": "2026-11-19T19:31:18+00:00",
  "eligible": {
   "source": "https://michildwelfare.org/employment/",
   "fetched_at": "2026-11-16T23:40:14+00:00",
@@ -202,7 +202,7 @@
    "type": "Private",
    "careers_url": "https://www.cfsnwmi.org/careers",
    "status": "ok",
-   "matched": 0
+   "matched": 1
   },
   {
    "name": "Child & Family Services of the Upper Peninsula",
@@ -286,7 +286,7 @@
    "type": "Private",
    "careers_url": "http://www.ffkids.org/career",
    "status": "ok",
-   "matched": 2
+   "matched": 1
   },
   {
    "name": "Fostering Solutions",
@@ -418,9 +418,8 @@
    "name": "Wellspring Lutheran Services",
    "type": "Private",
    "careers_url": "https://wellspringlutheran.com/careers",
-   "status": "error",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://wellspringlutheran.wd503.myworkdayjobs.com/wday/cxs/wellspringlutheran/Wellspring_Careers/jobs",
-   "matched": 0
+   "status": "ok",
+   "matched": 7
   },
   {
    "name": "West Michigan Partnership for Children",
@@ -497,7 +496,7 @@
    "type": "Tribal",
    "careers_url": "https://nhbp-nsn.gov/careers-at-nhbp/",
    "status": "ok",
-   "matched": 1
+   "matched": 0
   },
   {
    "name": "Pokagon Band of Potawatomi",
@@ -557,7 +556,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625449-0"
   },
   {
-   "title": "Alpena/Montmorency County CPS & Foster Care Services Specialist 9-12",
+   "title": "Alpena/Montmorency County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -569,8 +568,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4643266-0"
   },
@@ -749,7 +747,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4619597-0"
   },
   {
-   "title": "Calhoun County CPS & Foster Care Services Specialist 9-12",
+   "title": "Calhoun County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -760,8 +758,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4614693-0"
   },
@@ -854,7 +851,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644532-0"
   },
   {
-   "title": "Delta/Dickinson/Menominee County CPS & Foster Care Services Specialist 9-12",
+   "title": "Delta/Dickinson/Menominee County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -867,8 +864,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644487-0"
   },
@@ -891,7 +887,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4643254-0"
   },
   {
-   "title": "Genesee County CPS & Foster Care Services Specialist 9-12",
+   "title": "Genesee County Services Specialist 9-12 - Case Manager",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -902,13 +898,12 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4623136-0"
   },
   {
-   "title": "Gladwin/Midland County CPS & Foster Care Services Specialist 9-12",
+   "title": "Gladwin/Midland County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -920,8 +915,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4636149-0"
   },
@@ -981,7 +975,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644571-0"
   },
   {
-   "title": "Ingham County CPS & Foster Care Services Specialist 9-12",
+   "title": "Ingham County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -992,8 +986,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644963-0"
   },
@@ -1186,7 +1179,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4636336-0"
   },
   {
-   "title": "Mecosta & Osceola County CPS & Foster Care Services Specialist 9-12",
+   "title": "Mecosta & Osceola County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -1198,8 +1191,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4644904-0"
   },
@@ -1333,7 +1325,7 @@
     "Ottawa"
    ],
    "city": "Holland",
-   "posted": "2026-11-05",
+   "posted": "2026-11-19",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1559,7 +1551,7 @@
     "Berrien"
    ],
    "city": "Benton Harbor",
-   "posted": "2026-11-02",
+   "posted": "2026-11-19",
    "closes": null,
    "continuous": true,
    "roles": [
@@ -1696,7 +1688,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5331257-0"
   },
   {
-   "title": "Shiawassee/Gratiot County CPS & Foster Care Services Specialist 9-12",
+   "title": "Shiawassee/Gratiot County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -1708,8 +1700,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4634869-0"
   },
@@ -1766,7 +1757,7 @@
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625554-0"
   },
   {
-   "title": "Washtenaw County CPS & Foster Care Services Specialist 9-12",
+   "title": "Washtenaw County Case Manager - Services Specialist 9-12",
    "agency": "MDHHS",
    "employer_type": "MDHHS",
    "counties": [
@@ -1777,8 +1768,7 @@
    "closes": null,
    "continuous": true,
    "roles": [
-    "Services Specialist 9-11 (CPS Investigator/On Going)",
-    "Services Specialist 9-11 (Foster Care Case Manager)"
+    "Services Specialist 9-11 (CPS Investigator/On Going)"
    ],
    "url": "https://www.governmentjobs.com/careers/michigan/jobs/4625745-0"
   },
@@ -1866,6 +1856,22 @@
     "Adoption Worker"
    ],
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=f0aaeade-65c4-45d7-9f2c-02b65ea5b46b"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Bethany Christian Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "city": "Kalamazoo",
+   "posted": "2026-11-18",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=06778f17-f618-4b9c-8990-dcd5905ba6ee"
   },
   {
    "title": "Foster Care Case Manager",
@@ -1978,22 +1984,6 @@
     "Foster Care Worker"
    ],
    "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=63062c87-f955-46a0-bd71-5aa89c8cba9c"
-  },
-  {
-   "title": "Foster Care Case Manager",
-   "agency": "Bethany Christian Services",
-   "employer_type": "Private",
-   "counties": [
-    "Kalamazoo"
-   ],
-   "city": "Kalamazoo",
-   "posted": "2026-10-26",
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruiting2.ultipro.com/BET1001BTHCS/JobBoard/855728a0-f315-46e7-8c3d-e7994a0f4190/OpportunityDetail?opportunityId=06778f17-f618-4b9c-8990-dcd5905ba6ee"
   },
   {
    "title": "Foster Care Clerk",
@@ -2316,6 +2306,22 @@
    "url": "https://www.ccsem.org/job-postings#case-manager-foster-care"
   },
   {
+   "title": "Foster Care Specialist",
+   "agency": "Child & Family Services of Northwestern Michigan",
+   "employer_type": "Private",
+   "counties": [
+    "Grand Traverse"
+   ],
+   "city": "Traverse City",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://secure.entertimeonline.com/ta/ChildFamily.careers?ShowJob=906117650"
+  },
+  {
    "title": "Child Welfare Specialist",
    "agency": "Child and Family Charities (Lansing)",
    "employer_type": "Private",
@@ -2337,7 +2343,7 @@
     "Berrien"
    ],
    "city": "Benton Harbor",
-   "posted": "2026-11-04",
+   "posted": "2026-11-19",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2353,7 +2359,7 @@
     "Kalamazoo"
    ],
    "city": "Kalamazoo",
-   "posted": "2026-11-04",
+   "posted": "2026-11-19",
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2678,20 +2684,6 @@
    "url": "https://www.forever-families.org/careers/"
   },
   {
-   "title": "FOSTER CARE & Adoption SUPERVISOR",
-   "agency": "Fostering Futures",
-   "employer_type": "Private",
-   "counties": [],
-   "city": null,
-   "posted": null,
-   "closes": null,
-   "continuous": null,
-   "roles": [
-    "Program Supervisor (Adoption, Foster Care, Licensing)"
-   ],
-   "url": "http://www.ffkids.org/career"
-  },
-  {
    "title": "foster care case manager",
    "agency": "Fostering Futures",
    "employer_type": "Private",
@@ -2937,7 +2929,7 @@
     "Ottawa"
    ],
    "city": "Grand Rapids, Rockford, Lowell, Caledonia, Hudsonville",
-   "posted": "2026-11-04",
+   "posted": null,
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2954,7 +2946,7 @@
     "Van Buren"
    ],
    "city": "Kalamazoo, Portage, Paw Paw, Hartford",
-   "posted": "2026-10-13",
+   "posted": null,
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2971,7 +2963,7 @@
     "Van Buren"
    ],
    "city": "Kalamazoo, Portage, Comstock, Mattawan, Vicksburg",
-   "posted": "2026-11-03",
+   "posted": null,
    "closes": null,
    "continuous": null,
    "roles": [
@@ -2989,7 +2981,7 @@
     "Clinton"
    ],
    "city": "Lansing, East Lansing, Charlotte, Dewitt",
-   "posted": "2026-10-29",
+   "posted": null,
    "closes": null,
    "continuous": null,
    "roles": [
@@ -3069,13 +3061,123 @@
     "Kent"
    ],
    "city": "Grand Rapids",
-   "posted": "2026-10-12",
+   "posted": null,
    "closes": null,
    "continuous": null,
    "roles": [
     "Unaccompanied Refugee Minor Caseworker"
    ],
    "url": "https://wedgwood.clearcompany.com/careers/jobs/615a864a-193e-9a4c-8806-2b2dec4cc98a"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Kentwood",
+   "posted": "2026-11-19",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Foster-Care-Case-Manager_R-100182"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Grand Traverse"
+   ],
+   "city": "Traverse City",
+   "posted": "2026-11-16",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Case-Manager--Exempt-_R-100224"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Otsego"
+   ],
+   "city": "Gaylord",
+   "posted": "2026-11-13",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Gaylord-MI/Foster-Care-Case-Manager_R-100079"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Oakland"
+   ],
+   "city": "Bingham Farms",
+   "posted": "2026-11-11",
+   "closes": "2026-11-20",
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Bingham-Farms-MI/Foster-Care-Case-Manager_R-100274"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "city": "Kalamazoo",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kalamazoo-MI/Foster-Care-Case-Manager_R-100096"
+  },
+  {
+   "title": "Foster Care Licensing Worker",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [],
+   "city": null,
+   "posted": "2026-11-16",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Home Licensing/GROW Trainer"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Licensing-Worker_R-100184"
+  },
+  {
+   "title": "Licensing Supervisor - Foster Care",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Kentwood",
+   "posted": "2026-11-10",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Program Supervisor (Adoption, Foster Care, Licensing)"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Supervisor---Foster-Care_R-100269"
   },
   {
    "title": "Foster Care Family Case Manager 50,000 a year",
@@ -3140,23 +3242,6 @@
     "Program Supervisor (Adoption, Foster Care, Licensing)"
    ],
    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/517963537913420AE48133188025F47A/jobs/3085"
-  },
-  {
-   "title": "Senior Social Services Case Manager",
-   "agency": "Nottawaseppi Huron Band of the Potawatomi",
-   "employer_type": "Tribal",
-   "counties": [
-    "Kalamazoo",
-    "Kent"
-   ],
-   "city": "Fulton, Grand Rapids",
-   "posted": null,
-   "closes": "2026-11-16",
-   "continuous": null,
-   "roles": [
-    "Foster Care Worker"
-   ],
-   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a78826058d77c4b0158df2ea92205ea&id=8a7887a8a18473d601a19cc82ba06234&source=&lang=en"
   },
   {
    "title": "TO Anishnaabeg Child and Family Services (ACFS) Supervisor",
