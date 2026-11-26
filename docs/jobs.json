@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T20:30:31+00:00",
+ "generated_at": "2026-11-26T20:14:45+00:00",
  "eligible": {
   "source": "https://michildwelfare.org/employment/",
   "fetched_at": "2026-11-16T23:40:14+00:00",
@@ -418,9 +418,8 @@
    "name": "Wellspring Lutheran Services",
    "type": "Private",
    "careers_url": "https://wellspringlutheran.com/careers",
-   "status": "error",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://wellspringlutheran.wd503.myworkdayjobs.com/wday/cxs/wellspringlutheran/Wellspring_Careers/jobs",
-   "matched": 0
+   "status": "ok",
+   "matched": 7
   },
   {
    "name": "West Michigan Partnership for Children",
@@ -3023,6 +3022,118 @@
     "Unaccompanied Refugee Minor Caseworker"
    ],
    "url": "https://wedgwood.clearcompany.com/careers/jobs/615a864a-193e-9a4c-8806-2b2dec4cc98a"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Grand Traverse"
+   ],
+   "city": "Traverse City",
+   "posted": "2026-11-25",
+   "closes": "2026-12-07",
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Case-Manager--Exempt-_R-100224"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Otsego"
+   ],
+   "city": "Gaylord",
+   "posted": "2026-11-23",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Gaylord-MI/Foster-Care-Case-Manager_R-100079"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Oakland"
+   ],
+   "city": "Bingham Farms",
+   "posted": "2026-11-20",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Bingham-Farms-MI/Foster-Care-Case-Manager_R-100274"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kent"
+   ],
+   "city": "Kentwood",
+   "posted": "2026-11-19",
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kentwood-MI/Foster-Care-Case-Manager_R-100182"
+  },
+  {
+   "title": "Foster Care Case Manager",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "city": "Kalamazoo",
+   "posted": null,
+   "closes": null,
+   "continuous": null,
+   "roles": [
+    "Foster Care Worker"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Kalamazoo-MI/Foster-Care-Case-Manager_R-100096"
+  },
+  {
+   "title": "Foster Care Licensing Worker",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Ingham"
+   ],
+   "city": "Lansing",
+   "posted": "2026-11-25",
+   "closes": "2026-12-03",
+   "continuous": null,
+   "roles": [
+    "Foster Home Licensing/GROW Trainer"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Lansing-MI/Foster-Care-Licensing-Worker_R-100293"
+  },
+  {
+   "title": "Foster Care Licensing Worker",
+   "agency": "Wellspring Lutheran Services",
+   "employer_type": "Private",
+   "counties": [
+    "Grand Traverse"
+   ],
+   "city": "Traverse City",
+   "posted": "2026-11-25",
+   "closes": "2026-12-07",
+   "continuous": null,
+   "roles": [
+    "Foster Home Licensing/GROW Trainer"
+   ],
+   "url": "https://wellspringlutheran.wd503.myworkdayjobs.com/Wellspring_Careers/job/Traverse-City-MI/Foster-Care-Licensing-Worker_R-100184"
   },
   {
    "title": "Foster Care Family Case Manager 50,000 a year",
